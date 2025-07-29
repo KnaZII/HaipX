@@ -1,15 +1,16 @@
-name: Build
+name: Build (DISABLED)
 
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+  # workflow_dispatch:
+  # push:
+  #   branches: [ 0.28 ]
 
 jobs:
   build:
-    name: Build
-    uses: ./.github/workflows/cmake.yml
-    with:
-      build_type: Release
-      run_tests: true
+    runs-on: windows-latest
+    
+    steps:
+    - name: This workflow is disabled
+      run: |
+        echo "This workflow is disabled. Use Ultra Simple Windows Build instead."
+        exit 1
