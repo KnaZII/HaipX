@@ -1,0 +1,95 @@
+name: Manual Windows Build
+
+on:
+  workflow_dispatch:
+    inputs:
+      platform:
+        description: 'Platform to build for'
+        required: true
+        default: 'windows'
+        type: choice
+        options:
+        - windows
+        - linux
+
+jobs:
+  build-windows:
+    if: ${{ github.event.inputs.platform == 'windows' }}
+    runs-on: windows-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup Visual Studio
+      uses: microsoft/setup-msbuild@v1
+      
+    - name: Install CMake
+      uses: jwlawson/actions-setup-cmake@v1.12
+      with:
+        cmake-version: '3.25.0'
+        
+    - name: Install dependencies
+      run: |
+        # Устанавливаем Chocolatey если его нет
+        Set-ExecutionPolicy Bypass -Scope Process -Force
+        [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072
+        iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+        
+        # Устанавливаем необходимые пакеты
+        choco install ninja -y
+        
+    - name: Build HaipX for Windows
+      run: |
+        mkdir build-windows
+        cd build-windows
+        cmake -G "Ninja" -DCMAKE_BUILD_TYPE=Release ..
+        ninja
+        
+    - name: Upload Windows build
+      uses: actions/upload-artifact@v4
+      with:
+        name: HaipX-Windows-Build
+        path: |
+          build-windows/HaipX.exe
+          build-windows/res/
+        retention-days: 7
+
+  build-linux:
+    if: ${{ github.event.inputs.platform == 'linux' }}
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y \
+          build-essential \
+          cmake \
+          libpng-dev \
+          zlib1g-dev \
+          libopenal-dev \
+          libcurl4-openssl-dev \
+          libluajit-5.1-dev \
+          libglfw3-dev \
+          libglew-dev \
+          libglm-dev
+          
+    - name: Build HaipX for Linux
+      run: |
+        mkdir build-linux
+        cd build-linux
+        cmake -DCMAKE_BUILD_TYPE=Release ..
+        make -j$(nproc)
+        
+    - name: Upload Linux build
+      uses: actions/upload-artifact@v4
+      with:
+        name: HaipX-Linux-Build
+        path: |
+          build-linux/HaipX
+          build-linux/res/
+        retention-days: 7 
