@@ -1,0 +1,9 @@
+{
+    "caption": "Wooden Axe",
+    "icon-type": "sprite",
+    "icon": "items:wooden_axe",
+    "uses": 60,
+    "uses-display": "vbar",
+    "stack-size": 1,
+    "placing-block": "core:air"
+} 

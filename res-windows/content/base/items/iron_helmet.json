@@ -1,0 +1,9 @@
+{
+    "caption": "Iron Helmet",
+    "icon-type": "sprite",
+    "icon": "items:iron_helmet",
+    "uses": 165,
+    "uses-display": "vbar",
+    "stack-size": 1,
+    "placing-block": "core:air"
+} 

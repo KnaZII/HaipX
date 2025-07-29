@@ -1,0 +1,9 @@
+{
+    "caption": "Carrot",
+    "icon-type": "sprite",
+    "icon": "items:carrot",
+    "uses": -1,
+    "uses-display": "none",
+    "stack-size": 64,
+    "placing-block": "core:air"
+} 

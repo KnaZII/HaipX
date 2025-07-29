@@ -1,0 +1,9 @@
+{
+    "caption": "Leather Helmet",
+    "icon-type": "sprite",
+    "icon": "items:leather_helmet",
+    "uses": 55,
+    "uses-display": "vbar",
+    "stack-size": 1,
+    "placing-block": "core:air"
+} 

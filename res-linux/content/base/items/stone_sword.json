@@ -1,0 +1,9 @@
+{
+    "caption": "Stone Sword",
+    "icon-type": "sprite",
+    "icon": "items:stone_sword",
+    "uses": 132,
+    "uses-display": "vbar",
+    "stack-size": 1,
+    "placing-block": "core:air"
+} 

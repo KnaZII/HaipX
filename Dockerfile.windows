@@ -16,9 +16,6 @@ RUN apt-get update && apt-get install --no-install-recommends -y \
     ca-certificates \
     mingw-w64 \
     mingw-w64-tools \
-    wine \
-    wine32 \
-    wine64 \
     && rm -rf /var/lib/apt/lists/*
 
 # Установка CMake >= 3.26 вручную
@@ -83,11 +80,14 @@ RUN wget https://github.com/g-truc/glm/releases/download/0.9.9.8/glm-0.9.9.8.zip
     cp -r glm/glm /usr/x86_64-w64-mingw32/include/ && \
     rm -rf glm*
 
-# Download libpng for Windows
-RUN wget https://github.com/glennrp/libpng/archive/refs/tags/v1.6.40.zip && \
-    unzip v1.6.40.zip && \
+# Install zlib for Windows
+RUN apt-get update && apt-get install --no-install-recommends -y zlib1g-dev && rm -rf /var/lib/apt/lists/*
+
+# Download libpng for Windows (pre-built)
+RUN wget https://github.com/glennrp/libpng/releases/download/v1.6.40/libpng-1.6.40.tar.gz && \
+    tar -xzf libpng-1.6.40.tar.gz && \
     cd libpng-1.6.40 && \
-    ./configure --host=x86_64-w64-mingw32 --prefix=/usr/x86_64-w64-mingw32 && \
+    ./configure --host=x86_64-w64-mingw32 --prefix=/usr/x86_64-w64-mingw32 --with-zlib-prefix=/usr/x86_64-w64-mingw32 && \
     make && make install && \
     cd .. && rm -rf libpng-1.6.40*
 

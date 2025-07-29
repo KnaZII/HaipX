@@ -11,7 +11,7 @@ find_package(GLEW REQUIRED)
 find_package(glm REQUIRED)
 if(CMAKE_SYSTEM_NAME STREQUAL "Windows")
     # specific for vcpkg
-    find_package(OpenAL CONFIG REQUIRED)
+    # find_package(OpenAL CONFIG REQUIRED)
 else()
     find_package(OpenAL REQUIRED)
 endif()
@@ -71,7 +71,7 @@ target_link_libraries(
             ZLIB::ZLIB
             PNG::PNG
             CURL::libcurl
-            OpenAL::OpenAL
+            # OpenAL::OpenAL
             Vorbis::vorbis
             Vorbis::vorbisfile
             luajit::luajit

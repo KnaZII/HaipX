@@ -1,0 +1,9 @@
+{
+    "caption": "Leather Boots",
+    "icon-type": "sprite",
+    "icon": "items:leather_boots",
+    "uses": 65,
+    "uses-display": "vbar",
+    "stack-size": 1,
+    "placing-block": "core:air"
+} 

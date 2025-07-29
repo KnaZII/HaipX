@@ -1,0 +1,9 @@
+{
+    "caption": "Leather Leggings",
+    "icon-type": "sprite",
+    "icon": "items:leather_leggings",
+    "uses": 75,
+    "uses-display": "vbar",
+    "stack-size": 1,
+    "placing-block": "core:air"
+} 
