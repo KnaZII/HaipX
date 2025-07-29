@@ -105,33 +105,10 @@ cmake --build .
 
 ## Building in Windows
 
-### Option 1: Using Docker (Recommended)
-
 >[!NOTE]
-> Requirements: Docker Desktop for Windows
-
-This is the easiest way to build HaipX for Windows on any platform:
-
-```bash
-# Build the Windows Docker image
-docker build -f Dockerfile.windows -t haipx-windows .
-
-# Build HaipX for Windows
-docker run --rm -v$(pwd):/project haipx-windows bash -c "
-  mkdir -p build-windows
-  cd build-windows
-  cmake -DCMAKE_TOOLCHAIN_FILE=../windows-toolchain.cmake ..
-  make -j$(nproc)
-"
-```
-
-The compiled executable will be available in `build-windows/HaipX.exe`
-
-### Option 2: Using vcpkg (Traditional method)
-
->[!NOTE]
-> Requirements: vcpkg, CMake, Git
-
+> Requirement:
+>
+> vcpkg, CMake, Git
 There are two options to use vcpkg:
 1. If you have Visual Studio installed, most likely the **VCPKG_ROOT** environment variable will already exist in **Developer Command Prompt for VS**
 2. If you want use **vcpkg**, install **vcpkg** from git to you system:
@@ -163,7 +140,7 @@ cmake --build --preset default-vs-msvc-windows
 
 See <https://docs.docker.com/engine/install>
 
-### Building for Linux
+### Do you have Linux
 
 ### Step 1. Build docker container
 
@@ -183,26 +160,7 @@ docker run --rm -it -v$(pwd):/project haipx bash -c "cmake -DCMAKE_BUILD_TYPE=Re
 docker run --rm -it -v$(pwd):/project -v/tmp/.X11-unix:/tmp/.X11-unix -v${XAUTHORITY}:/home/user/.Xauthority:ro -eDISPLAY --network=host haipx ./build/HaipX
 ```
 
-### Building for Windows
-
-### Step 1. Build Windows docker container
-
-```sh
-docker build -f Dockerfile.windows -t haipx-windows .
-```
-
-### Step 2. Build project for Windows using the docker container
-
-```sh
-docker run --rm -it -v$(pwd):/project haipx-windows bash -c "
-  mkdir -p build-windows
-  cd build-windows
-  cmake -DCMAKE_TOOLCHAIN_FILE=../windows-toolchain.cmake ..
-  make -j$(nproc)
-"
-```
-
-### Running on Windows host
+### Do you have Windows
 
 ### Step 1. You need to install VcXsrv
 
@@ -228,31 +186,4 @@ docker run --rm -it -v "${PWD}:/project" haipx bash -c "cmake -DCMAKE_BUILD_TYPE
 
 ```powershell
 docker run --rm -it -v "${PWD}:/project" -e DISPLAY=host.docker.internal:0.0 --network host haipx ./build/HaipX
-
-## Automated Builds with GitHub Actions
-
-This project includes GitHub Actions workflows that automatically build HaipX for both Linux and Windows platforms.
-
-### Available Workflows
-
-- **Build HaipX for Linux**: Builds the Linux version using native Ubuntu dependencies
-- **Build HaipX for Windows**: Builds the Windows version using Docker with MinGW-w64 cross-compilation
-
-### Accessing Build Artifacts
-
-1. Go to the [Actions](https://github.com/KnaZII/HaipX/actions) tab in the repository
-2. Click on any completed workflow run
-3. Scroll down to the "Artifacts" section
-4. Download the build artifacts for your platform
-
-The artifacts include:
-- Compiled executable (`HaipX` for Linux, `HaipX.exe` for Windows)
-- Resource files (`res/` directory)
-
-### Triggering Builds
-
-Builds are automatically triggered on:
-- Push to `main` or `0.28` branches
-- Pull requests to `main` or `0.28` branches
-
-You can also manually trigger builds from the Actions tab.
+```

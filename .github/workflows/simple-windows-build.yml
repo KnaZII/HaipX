@@ -1,0 +1,45 @@
+name: Simple Windows Build
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ 0.28 ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      
+    - name: Setup Visual Studio
+      uses: microsoft/setup-msbuild@v1
+      
+    - name: Install CMake
+      uses: jwlawson/actions-setup-cmake@v1.12
+      with:
+        cmake-version: '3.25.0'
+        
+    - name: Create simple CMakeLists
+      run: |
+        echo "cmake_minimum_required(VERSION 3.5)" > CMakeLists-simple.txt
+        echo "project(HaipX)" >> CMakeLists-simple.txt
+        echo "set(CMAKE_CXX_STANDARD 17)" >> CMakeLists-simple.txt
+        echo "set(CMAKE_CXX_STANDARD_REQUIRED ON)" >> CMakeLists-simple.txt
+        echo "file(GLOB_RECURSE sources src/*.cpp)" >> CMakeLists-simple.txt
+        echo "add_executable(HaipX $${sources})" >> CMakeLists-simple.txt
+        echo "target_include_directories(HaipX PRIVATE src)" >> CMakeLists-simple.txt
+        
+    - name: Build
+      run: |
+        mkdir build
+        cd build
+        cmake -G "Visual Studio 17 2022" -A x64 -DCMAKE_BUILD_TYPE=Release -f ../CMakeLists-simple.txt ..
+        cmake --build . --config Release
+        
+    - name: Upload artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: HaipX-Simple-Windows
+        path: build/Release/HaipX.exe 

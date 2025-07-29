@@ -14,47 +14,47 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
       
-    - name: Install vcpkg
-      run: |
-        git clone https://github.com/microsoft/vcpkg.git
-        cd vcpkg
-        .\bootstrap-vcpkg.bat
-        .\vcpkg integrate install
-        cd ..
-        
-    - name: Set up environment
-      run: |
-        $env:VCPKG_ROOT = "$pwd\vcpkg"
-        $env:PATH = "$env:VCPKG_ROOT;$env:PATH"
+    - name: Setup Visual Studio
+      uses: microsoft/setup-msbuild@v1
+      
+    - name: Install CMake
+      uses: jwlawson/actions-setup-cmake@v1.12
+      with:
+        cmake-version: '3.25.0'
         
     - name: Install dependencies
       run: |
+        # Устанавливаем Chocolatey
+        Set-ExecutionPolicy Bypass -Scope Process -Force
+        [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072
+        iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+        
+        # Устанавливаем необходимые пакеты
+        choco install ninja -y
+        choco install vcpkg -y
+        
+        # Устанавливаем библиотеки через vcpkg
         vcpkg install glfw3:x64-windows
         vcpkg install glew:x64-windows
         vcpkg install glm:x64-windows
-        vcpkg install libpng:x64-windows
-        vcpkg install zlib:x64-windows
-        vcpkg install openal-soft:x64-windows
-        vcpkg install curl:x64-windows
-        vcpkg install luajit:x64-windows
-        vcpkg install entt:x64-windows
         
-    - name: Configure CMake
+    - name: Setup vcpkg environment
+      run: |
+        $env:VCPKG_ROOT = "C:\vcpkg"
+        $env:PATH = "$env:VCPKG_ROOT;$env:PATH"
+        
+    - name: Build HaipX for Windows
       run: |
         mkdir build-windows
         cd build-windows
-        cmake -DCMAKE_TOOLCHAIN_FILE=../vcpkg/scripts/buildsystems/vcpkg.cmake -DCMAKE_BUILD_TYPE=Release ..
-        
-    - name: Build HaipX
-      run: |
-        cd build-windows
-        cmake --build . --config Release
+        cmake -G "Ninja" -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=C:/vcpkg/scripts/buildsystems/vcpkg.cmake ..
+        ninja
         
     - name: Upload Windows build artifacts
       uses: actions/upload-artifact@v4
       with:
         name: haipx-windows-build
         path: |
-          build-windows/Release/HaipX.exe
+          build-windows/HaipX.exe
           build-windows/res/
         retention-days: 30 
