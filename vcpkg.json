@@ -1,18 +1,15 @@
 {
-    "name": "haipx",
-    "version-string": "1.0.0",
-    "dependencies": [
-      "opengl",
-      "openal-soft",
-      "glfw3",
-      "glew",
-      "glm",
-      "libpng",
-      "zlib",
-      "luajit",
-      "libvorbis",
-      "entt",
-      "gtest",
-      "curl"
-    ]
-  }
+  "name": "haipx",
+  "version": "1.0.0",
+  "dependencies": [
+    "glfw3",
+    "glew",
+    "glm",
+    "libpng",
+    "zlib",
+    "openal-soft",
+    "curl",
+    "luajit",
+    "entt"
+  ]
+}

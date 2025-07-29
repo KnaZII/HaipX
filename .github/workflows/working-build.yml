@@ -30,35 +30,7 @@ jobs:
         
     - name: Install dependencies
       run: |
-        .\vcpkg\vcpkg install glfw3:x64-windows
-        .\vcpkg\vcpkg install glew:x64-windows
-        .\vcpkg\vcpkg install glm:x64-windows
-        .\vcpkg\vcpkg install libpng:x64-windows
-        .\vcpkg\vcpkg install zlib:x64-windows
-        .\vcpkg\vcpkg install openal-soft:x64-windows
-        .\vcpkg\vcpkg install curl:x64-windows
-        .\vcpkg\vcpkg install luajit:x64-windows
-        .\vcpkg\vcpkg install entt:x64-windows
-        
-    - name: Create working CMakeLists
-      run: |
-        echo "cmake_minimum_required(VERSION 3.5)" > CMakeLists-working.txt
-        echo "project(HaipX)" >> CMakeLists-working.txt
-        echo "set(CMAKE_CXX_STANDARD 17)" >> CMakeLists-working.txt
-        echo "set(CMAKE_CXX_STANDARD_REQUIRED ON)" >> CMakeLists-working.txt
-        echo "set(CMAKE_EXPORT_COMPILE_COMMANDS ON)" >> CMakeLists-working.txt
-        echo "file(GLOB_RECURSE headers src/*.hpp)" >> CMakeLists-working.txt
-        echo "file(GLOB_RECURSE sources src/*.cpp)" >> CMakeLists-working.txt
-        echo "list(REMOVE_ITEM sources src/main.cpp)" >> CMakeLists-working.txt
-        echo "add_library(HaipXSrc STATIC $${sources} $${headers})" >> CMakeLists-working.txt
-        echo "target_include_directories(HaipXSrc PUBLIC src)" >> CMakeLists-working.txt
-        echo "add_executable(HaipX src/main.cpp)" >> CMakeLists-working.txt
-        echo "target_link_libraries(HaipX PRIVATE HaipXSrc)" >> CMakeLists-working.txt
-        echo "add_custom_command(" >> CMakeLists-working.txt
-        echo "    TARGET HaipX" >> CMakeLists-working.txt
-        echo "    POST_BUILD" >> CMakeLists-working.txt
-        echo "    COMMAND $${CMAKE_COMMAND} -E copy_directory_if_different" >> CMakeLists-working.txt
-        echo "            $${CMAKE_CURRENT_SOURCE_DIR}/res $<TARGET_FILE_DIR:HaipX>/res)" >> CMakeLists-working.txt
+        .\vcpkg\vcpkg install --triplet x64-windows
         
     - name: Build
       run: |

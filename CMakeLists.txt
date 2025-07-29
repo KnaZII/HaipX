@@ -48,6 +48,9 @@ target_link_libraries(HaipXSrc
     PRIVATE CURL::libcurl
     PRIVATE LuaJIT::LuaJIT
     PRIVATE EnTT::EnTT
+    PRIVATE winmm
+    PRIVATE ws2_32
+    PRIVATE iphlpapi
 )
 
 # Create main executable
