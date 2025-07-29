@@ -1,0 +1,55 @@
+name: Macos Build
+
+on:
+  push:
+    branches: [ "main", "release-**"]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build-dmg:
+    runs-on: macos-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: 'true'
+
+      - name: Install dependencies from brew
+        run: |
+          brew install glfw3 glew libpng openal-soft luajit libvorbis skypjack/entt/entt googletest glm
+
+      - name: Configure
+        run: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release -DHAIPX_BUILD_TESTS=ON -DHAIPX_BUILD_APPDIR=1
+
+      - name: Build
+        run: cmake --build build -t install
+
+      - name: Make fix_dylibs.sh executable
+        run: chmod +x dev/fix_dylibs.sh
+
+      - name: Fix dylibs
+        run: ./dev/fix_dylibs.sh HaipX Release build
+
+      - name: Run tests
+        run: ctest --output-on-failure --test-dir build
+
+      - name: Run engine tests
+        timeout-minutes: 1
+        run: |
+          chmod +x build/HaipX
+          chmod +x AppDir/usr/bin/vctest
+          AppDir/usr/bin/vctest -e build/HaipX -d dev/tests -u build
+      - name: Create DMG
+        run: |
+          mkdir HaipXDmgContent
+cp -r build/res HaipXDmgContent/
+cp -r build/HaipX HaipXDmgContent/
+cp -r build/libs HaipXDmgContent/libs
+hdiutil create HaipXMacApp.dmg -volname "HaipX" -srcfolder HaipXDmgContent -ov -format UDZO
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: HaipXMacOs
+path: HaipXMacApp.dmg

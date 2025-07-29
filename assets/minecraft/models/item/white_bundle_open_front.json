@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/template_bundle_open_front",
+  "textures": {
+    "layer0": "minecraft:item/bundles/white_bundle_open_front"
+  }
+}

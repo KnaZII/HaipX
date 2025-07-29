@@ -1,0 +1,9 @@
+{
+    "caption": "Stone Pickaxe",
+    "icon-type": "sprite",
+    "icon": "items:stone_pickaxe",
+    "uses": 132,
+    "uses-display": "vbar",
+    "stack-size": 1,
+    "placing-block": "core:air"
+} 

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<container size="200,50" gravity="top-left" margin="10,10,0,0">
+    <!-- Health bar -->
+    <container size="100,20" margin="0,0,0,5">
+        <label text="Health:" size="50,20" margin="0,0,5,0"/>
+        <container size="45,15" margin="55,2,0,0" color="#00000080">
+            <container size="45,15" margin="0,0,0,0" color="#ff0000ff" id="health_bar"/>
+        </container>
+    </container>
+    
+    <!-- Hunger bar -->
+    <container size="100,20" margin="0,25,0,0">
+        <label text="Hunger:" size="50,20" margin="0,0,5,0"/>
+        <container size="45,15" margin="55,2,0,0" color="#00000080">
+            <container size="45,15" margin="0,0,0,0" color="#8b4513ff" id="hunger_bar"/>
+        </container>
+    </container>
+</container> 

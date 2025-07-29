@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=HaipX
+Comment=Minecraft-like game engine in C++ with OpenGL
+TryExec=HaipX
+Exec=HaipX
+Icon=HaipX
+MimeType=image/x-foo;
+Categories=Game;

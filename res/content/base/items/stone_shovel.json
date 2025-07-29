@@ -1,0 +1,9 @@
+{
+    "caption": "Stone Shovel",
+    "icon-type": "sprite",
+    "icon": "items:stone_shovel",
+    "uses": 132,
+    "uses-display": "vbar",
+    "stack-size": 1,
+    "placing-block": "core:air"
+} 
