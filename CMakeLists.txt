@@ -15,48 +15,16 @@ endif()
 find_package(OpenGL REQUIRED)
 find_package(PkgConfig QUIET)
 
-# Try to find GLFW
-find_package(glfw3 QUIET)
-if(NOT glfw3_FOUND)
-    # Fallback: try to find GLFW manually
-    find_path(GLFW_INCLUDE_DIR GLFW/glfw3.h)
-    find_library(GLFW_LIBRARY glfw3)
-    if(GLFW_INCLUDE_DIR AND GLFW_LIBRARY)
-        add_library(glfw UNKNOWN IMPORTED)
-        set_target_properties(glfw PROPERTIES
-            IMPORTED_LOCATION ${GLFW_LIBRARY}
-            INTERFACE_INCLUDE_DIRECTORIES ${GLFW_INCLUDE_DIR}
-        )
-    endif()
-endif()
-
-# Try to find GLEW
-find_package(GLEW QUIET)
-if(NOT GLEW_FOUND)
-    # Fallback: try to find GLEW manually
-    find_path(GLEW_INCLUDE_DIR GL/glew.h)
-    find_library(GLEW_LIBRARY glew32)
-    if(GLEW_INCLUDE_DIR AND GLEW_LIBRARY)
-        add_library(GLEW::GLEW UNKNOWN IMPORTED)
-        set_target_properties(GLEW::GLEW PROPERTIES
-            IMPORTED_LOCATION ${GLEW_LIBRARY}
-            INTERFACE_INCLUDE_DIRECTORIES ${GLEW_INCLUDE_DIR}
-        )
-    endif()
-endif()
-
-# Try to find GLM
-find_package(glm QUIET)
-if(NOT glm_FOUND)
-    # Fallback: try to find GLM manually
-    find_path(GLM_INCLUDE_DIR glm/glm.hpp)
-    if(GLM_INCLUDE_DIR)
-        add_library(glm INTERFACE IMPORTED)
-        set_target_properties(glm PROPERTIES
-            INTERFACE_INCLUDE_DIRECTORIES ${GLM_INCLUDE_DIR}
-        )
-    endif()
-endif()
+# Find vcpkg packages
+find_package(glfw3 CONFIG REQUIRED)
+find_package(GLEW CONFIG REQUIRED)
+find_package(glm CONFIG REQUIRED)
+find_package(libpng CONFIG REQUIRED)
+find_package(zlib CONFIG REQUIRED)
+find_package(openal-soft CONFIG REQUIRED)
+find_package(CURL CONFIG REQUIRED)
+find_package(LuaJIT CONFIG REQUIRED)
+find_package(EnTT CONFIG REQUIRED)
 
 # Add source files
 file(GLOB_RECURSE headers ${CMAKE_CURRENT_SOURCE_DIR}/src/*.hpp)
@@ -71,7 +39,15 @@ target_include_directories(HaipXSrc PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src)
 # Link libraries
 target_link_libraries(HaipXSrc
     PRIVATE OpenGL::GL
-    PUBLIC glm
+    PRIVATE glfw
+    PRIVATE GLEW::GLEW
+    PRIVATE glm::glm
+    PRIVATE libpng::libpng
+    PRIVATE ZLIB::ZLIB
+    PRIVATE OpenAL::OpenAL
+    PRIVATE CURL::libcurl
+    PRIVATE LuaJIT::LuaJIT
+    PRIVATE EnTT::EnTT
 )
 
 # Create main executable
