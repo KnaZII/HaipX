@@ -1,6 +1,6 @@
 name: Debug Build Errors (DISABLED)
 
-on:
+# on:
   # workflow_dispatch:
   # push:
   #   branches: [ 0.28 ]

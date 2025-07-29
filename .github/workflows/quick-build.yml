@@ -1,9 +1,9 @@
 name: Quick Build Windows
 
-on:
-  workflow_dispatch: # Ручной запуск
-  push:
-    branches: [ 0.28 ]
+# on:
+#   workflow_dispatch: # Ручной запуск
+#   push:
+#     branches: [ 0.28 ]
 
 jobs:
   build:

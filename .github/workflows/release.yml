@@ -1,8 +1,8 @@
 # adopted from https://github.com/PrismLauncher/PrismLauncher
 name: Release
 
-on:
-  push:
+# on:
+#   push:
     tags:
       - "v*"
 

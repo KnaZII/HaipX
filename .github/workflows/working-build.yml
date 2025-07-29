@@ -1,6 +1,6 @@
 name: Working Windows Build (DISABLED)
 
-on:
+# on:
   # workflow_dispatch:
   # push:
   #   branches: [ 0.28 ]

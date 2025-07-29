@@ -1,7 +1,7 @@
 name: Manual Windows Build
 
-on:
-  workflow_dispatch:
+# on:
+#   workflow_dispatch:
     inputs:
       platform:
         description: 'Platform to build for'

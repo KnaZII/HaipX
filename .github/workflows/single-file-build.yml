@@ -1,6 +1,6 @@
 name: Single File Build Test (DISABLED)
 
-on:
+# on:
   # workflow_dispatch:
   # push:
   #   branches: [ 0.28 ]

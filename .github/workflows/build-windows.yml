@@ -1,10 +1,10 @@
 name: Build HaipX for Windows
 
-on:
-  push:
-    branches: [ main, 0.28 ]
+# on:
+#   push:
+#     branches: [ main, 0.28 ]
   pull_request:
-    branches: [ main, 0.28 ]
+#     branches: [ main, 0.28 ]
 
 jobs:
   build-windows:

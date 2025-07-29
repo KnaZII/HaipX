@@ -1,9 +1,9 @@
 name: Test Basic Build
 
-on:
-  workflow_dispatch:
-  push:
-    branches: [ 0.28 ]
+# on:
+#   workflow_dispatch:
+#   push:
+#     branches: [ 0.28 ]
 
 jobs:
   test-build:
