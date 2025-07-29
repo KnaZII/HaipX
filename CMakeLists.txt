@@ -11,12 +11,14 @@ if(WIN32)
     set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} /DWIN32 /D_WINDOWS /DWIN32_LEAN_AND_MEAN")
 endif()
 
-# Add source files
-file(GLOB_RECURSE headers ${CMAKE_CURRENT_SOURCE_DIR}/src/*.hpp)
-file(GLOB_RECURSE sources ${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp)
-list(REMOVE_ITEM sources ${CMAKE_CURRENT_SOURCE_DIR}/src/main.cpp)
+# Add source files using GLOB
+file(GLOB_RECURSE ALL_SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp)
+file(GLOB_RECURSE ALL_HEADERS ${CMAKE_CURRENT_SOURCE_DIR}/src/*.hpp)
 
-add_library(HaipXSrc STATIC ${sources} ${headers})
+# Remove main.cpp from sources for library
+list(REMOVE_ITEM ALL_SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/src/main.cpp)
+
+add_library(HaipXSrc STATIC ${ALL_SOURCES} ${ALL_HEADERS})
 
 # Include directories
 target_include_directories(HaipXSrc PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src)
