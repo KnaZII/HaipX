@@ -5,81 +5,58 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
-# Windows cross-compilation settings
-set(CMAKE_SYSTEM_NAME Windows)
-set(CMAKE_SYSTEM_PROCESSOR x86_64)
+# Windows-specific settings
+if(WIN32)
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /DWIN32 /D_WINDOWS /DWIN32_LEAN_AND_MEAN")
+    set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} /DWIN32 /D_WINDOWS /DWIN32_LEAN_AND_MEAN")
+endif()
 
-# Specify the cross compiler
-set(CMAKE_C_COMPILER x86_64-w64-mingw32-gcc)
-set(CMAKE_CXX_COMPILER x86_64-w64-mingw32-g++)
-set(CMAKE_RC_COMPILER x86_64-w64-mingw32-windres)
+# Find packages
+find_package(OpenGL REQUIRED)
+find_package(PkgConfig QUIET)
 
-# Set the root path for finding libraries
-set(CMAKE_FIND_ROOT_PATH /usr/x86_64-w64-mingw32)
+# Try to find GLFW
+find_package(glfw3 QUIET)
+if(NOT glfw3_FOUND)
+    # Fallback: try to find GLFW manually
+    find_path(GLFW_INCLUDE_DIR GLFW/glfw3.h)
+    find_library(GLFW_LIBRARY glfw3)
+    if(GLFW_INCLUDE_DIR AND GLFW_LIBRARY)
+        add_library(glfw UNKNOWN IMPORTED)
+        set_target_properties(glfw PROPERTIES
+            IMPORTED_LOCATION ${GLFW_LIBRARY}
+            INTERFACE_INCLUDE_DIRECTORIES ${GLFW_INCLUDE_DIR}
+        )
+    endif()
+endif()
 
-# Search for programs in the build host directories
-set(CMAKE_FIND_ROOT_PATH_MODE_PROGRAM NEVER)
+# Try to find GLEW
+find_package(GLEW QUIET)
+if(NOT GLEW_FOUND)
+    # Fallback: try to find GLEW manually
+    find_path(GLEW_INCLUDE_DIR GL/glew.h)
+    find_library(GLEW_LIBRARY glew32)
+    if(GLEW_INCLUDE_DIR AND GLEW_LIBRARY)
+        add_library(GLEW::GLEW UNKNOWN IMPORTED)
+        set_target_properties(GLEW::GLEW PROPERTIES
+            IMPORTED_LOCATION ${GLEW_LIBRARY}
+            INTERFACE_INCLUDE_DIRECTORIES ${GLEW_INCLUDE_DIR}
+        )
+    endif()
+endif()
 
-# Search for libraries and headers in the target directories
-set(CMAKE_FIND_ROOT_PATH_MODE_LIBRARY ONLY)
-set(CMAKE_FIND_ROOT_PATH_MODE_INCLUDE ONLY)
-
-# Disable pkg-config for Windows
-set(CMAKE_DISABLE_FIND_PACKAGE_PkgConfig TRUE)
-
-# Set library and include paths
-set(CMAKE_LIBRARY_PATH ${CMAKE_FIND_ROOT_PATH}/lib)
-set(CMAKE_INCLUDE_PATH ${CMAKE_FIND_ROOT_PATH}/include)
-
-# Add Windows-specific compiler flags
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include")
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include")
-
-# Find required packages manually
-find_path(GLEW_INCLUDE_DIR GL/glew.h
-    PATHS ${CMAKE_FIND_ROOT_PATH}/include
-    NO_DEFAULT_PATH
-)
-
-find_library(GLEW_LIBRARY
-    NAMES glew32
-    PATHS ${CMAKE_FIND_ROOT_PATH}/lib
-    NO_DEFAULT_PATH
-)
-
-find_path(GLFW_INCLUDE_DIR GLFW/glfw3.h
-    PATHS ${CMAKE_FIND_ROOT_PATH}/include
-    NO_DEFAULT_PATH
-)
-
-find_library(GLFW_LIBRARY
-    NAMES glfw3
-    PATHS ${CMAKE_FIND_ROOT_PATH}/lib
-    NO_DEFAULT_PATH
-)
-
-find_path(GLM_INCLUDE_DIR glm/glm.hpp
-    PATHS ${CMAKE_FIND_ROOT_PATH}/include
-    NO_DEFAULT_PATH
-)
-
-# Create imported targets
-add_library(GLEW::GLEW UNKNOWN IMPORTED)
-set_target_properties(GLEW::GLEW PROPERTIES
-    IMPORTED_LOCATION ${GLEW_LIBRARY}
-    INTERFACE_INCLUDE_DIRECTORIES ${GLEW_INCLUDE_DIR}
-)
-
-add_library(glfw UNKNOWN IMPORTED)
-set_target_properties(glfw PROPERTIES
-    IMPORTED_LOCATION ${GLFW_LIBRARY}
-    INTERFACE_INCLUDE_DIRECTORIES ${GLFW_INCLUDE_DIR}
-)
-
-add_library(glm INTERFACE IMPORTED)
-set_target_properties(glm PROPERTIES
-    INTERFACE_INCLUDE_DIRECTORIES ${GLM_INCLUDE_DIR}
-)
+# Try to find GLM
+find_package(glm QUIET)
+if(NOT glm_FOUND)
+    # Fallback: try to find GLM manually
+    find_path(GLM_INCLUDE_DIR glm/glm.hpp)
+    if(GLM_INCLUDE_DIR)
+        add_library(glm INTERFACE IMPORTED)
+        set_target_properties(glm PROPERTIES
+            INTERFACE_INCLUDE_DIRECTORIES ${GLM_INCLUDE_DIR}
+        )
+    endif()
+endif()
 
 # Add source files
 file(GLOB_RECURSE headers ${CMAKE_CURRENT_SOURCE_DIR}/src/*.hpp)
@@ -93,10 +70,7 @@ target_include_directories(HaipXSrc PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src)
 
 # Link libraries
 target_link_libraries(HaipXSrc
-    PRIVATE glfw
-            GLEW::GLEW
-            opengl32
-            winmm
+    PRIVATE OpenGL::GL
     PUBLIC glm
 )
 
