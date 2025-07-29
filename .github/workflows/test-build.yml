@@ -1,0 +1,58 @@
+name: Test Basic Build
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ 0.28 ]
+
+jobs:
+  test-build:
+    runs-on: windows-latest
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      
+    - name: Setup Visual Studio
+      uses: microsoft/setup-msbuild@v1
+      
+    - name: Install CMake
+      uses: jwlawson/actions-setup-cmake@v1.12
+      with:
+        cmake-version: '3.25.0'
+        
+    - name: List source files
+      run: |
+        echo "Source files:"
+        dir src\*.cpp /s
+        echo "Header files:"
+        dir src\*.hpp /s
+        
+    - name: Create minimal CMakeLists
+      run: |
+        echo "cmake_minimum_required(VERSION 3.5)" > CMakeLists-minimal.txt
+        echo "project(HaipX)" >> CMakeLists-minimal.txt
+        echo "set(CMAKE_CXX_STANDARD 17)" >> CMakeLists-minimal.txt
+        echo "set(CMAKE_CXX_STANDARD_REQUIRED ON)" >> CMakeLists-minimal.txt
+        echo "set(CMAKE_CXX_FLAGS \"$${CMAKE_CXX_FLAGS} /DWIN32 /D_WINDOWS\")" >> CMakeLists-minimal.txt
+        echo "file(GLOB_RECURSE sources src/*.cpp)" >> CMakeLists-minimal.txt
+        echo "add_executable(HaipX $${sources})" >> CMakeLists-minimal.txt
+        echo "target_include_directories(HaipX PRIVATE src)" >> CMakeLists-minimal.txt
+        echo "target_link_libraries(HaipX kernel32 user32 gdi32)" >> CMakeLists-minimal.txt
+        
+    - name: Try to configure
+      run: |
+        mkdir build-test
+        cd build-test
+        cmake -G "Visual Studio 17 2022" -A x64 -f ../CMakeLists-minimal.txt ..
+        
+    - name: Try to build
+      run: |
+        cd build-test
+        cmake --build . --config Release --verbose
+        
+    - name: Upload result
+      uses: actions/upload-artifact@v4
+      with:
+        name: Test-Build-Result
+        path: build-test/Release/HaipX.exe 
