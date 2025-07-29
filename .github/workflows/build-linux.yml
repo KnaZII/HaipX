@@ -1,0 +1,46 @@
+name: Build HaipX for Linux
+
+on:
+  push:
+    branches: [ main, 0.28 ]
+  pull_request:
+    branches: [ main, 0.28 ]
+
+jobs:
+  build-linux:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y \
+          build-essential \
+          cmake \
+          libpng-dev \
+          zlib1g-dev \
+          libopenal-dev \
+          libcurl4-openssl-dev \
+          libluajit-5.1-dev \
+          libglfw3-dev \
+          libglew-dev \
+          libglm-dev
+          
+    - name: Build HaipX for Linux
+      run: |
+        mkdir -p build-linux
+        cd build-linux
+        cmake ..
+        make -j$(nproc)
+        
+    - name: Upload Linux build artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: haipx-linux-build
+        path: |
+          build-linux/HaipX
+          build-linux/res/
+        retention-days: 30 

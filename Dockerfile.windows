@@ -1,0 +1,90 @@
+FROM ubuntu:22.04
+
+# Установка необходимых пакетов
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    cmake \
+    git \
+    wget \
+    unzip \
+    pkg-config \
+    libpng-dev \
+    zlib1g-dev \
+    libopenal-dev \
+    libcurl4-openssl-dev \
+    libluajit-5.1-dev \
+    libglfw3-dev \
+    libglew-dev \
+    libglm-dev \
+    mingw-w64 \
+    && rm -rf /var/lib/apt/lists/*
+
+# Установка MinGW-w64
+RUN apt-get update && apt-get install -y \
+    gcc-mingw-w64 \
+    g++-mingw-w64 \
+    mingw-w64-tools \
+    && rm -rf /var/lib/apt/lists/*
+
+# Скачивание и установка библиотек для Windows
+WORKDIR /tmp
+
+# Скачивание zlib для Windows
+RUN wget https://zlib.net/zlib-1.3.1.tar.gz && \
+    tar -xzf zlib-1.3.1.tar.gz && \
+    cd zlib-1.3.1 && \
+    ./configure --prefix=/usr/x86_64-w64-mingw32 --static && \
+    make && make install && \
+    cd .. && rm -rf zlib-1.3.1*
+
+# Скачивание libpng для Windows
+RUN wget https://sourceforge.net/projects/libpng/files/libpng16/1.6.40/libpng-1.6.40.tar.gz && \
+    tar -xzf libpng-1.6.40.tar.gz && \
+    cd libpng-1.6.40 && \
+    ./configure --host=x86_64-w64-mingw32 --prefix=/usr/x86_64-w64-mingw32 --enable-static --disable-shared && \
+    make && make install && \
+    cd .. && rm -rf libpng-1.6.40*
+
+# Скачивание OpenAL для Windows
+RUN wget https://www.openal.org/downloads/openal-soft-1.23.1-bin.zip && \
+    unzip openal-soft-1.23.1-bin.zip && \
+    cp -r openal-soft-1.23.1-bin/include/* /usr/x86_64-w64-mingw32/include/ && \
+    cp -r openal-soft-1.23.1-bin/libs/Win64/* /usr/x86_64-w64-mingw32/lib/ && \
+    rm -rf openal-soft-1.23.1-bin*
+
+# Скачивание libcurl для Windows
+RUN wget https://curl.se/windows/dl-8.4.0_5/curl-8.4.0_5-win64-mingw.zip && \
+    unzip curl-8.4.0_5-win64-mingw.zip && \
+    cp -r curl-8.4.0_5-win64-mingw/include/* /usr/x86_64-w64-mingw32/include/ && \
+    cp -r curl-8.4.0_5-win64-mingw/lib/* /usr/x86_64-w64-mingw32/lib/ && \
+    rm -rf curl-8.4.0_5-win64-mingw*
+
+# Установка EnTT
+RUN git clone https://github.com/skypjack/entt.git && \
+    cd entt && \
+    mkdir build && cd build && \
+    cmake -DCMAKE_BUILD_TYPE=Release -DENTT_INSTALL=on .. && \
+    make install && \
+    cd ../.. && rm -rf entt
+
+# Исправление для CMake (LUA_INCLUDE_DIR и LUA_LIBRARIES)
+RUN ln -s /usr/lib/x86_64-linux-gnu/libluajit-5.1.a /usr/lib/x86_64-linux-gnu/liblua5.1.a \
+    && ln -s /usr/include/luajit-2.1 /usr/include/lua
+
+# Установка LuaJIT
+RUN git clone https://luajit.org/git/luajit.git \
+    && cd luajit \
+    && make && make install INSTALL_INC=/usr/include/lua \
+    && cd .. && rm -rf luajit
+
+# Очистка
+RUN rm -rf /tmp/*
+
+# Создание пользователя по умолчанию
+ARG USER=user
+ARG UID=1000
+ARG GID=1000
+RUN useradd -m ${USER} --uid=${UID}
+USER ${UID}:${GID}
+
+WORKDIR /project 

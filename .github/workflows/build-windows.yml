@@ -1,0 +1,40 @@
+name: Build HaipX for Windows
+
+on:
+  push:
+    branches: [ main, 0.28 ]
+  pull_request:
+    branches: [ main, 0.28 ]
+
+jobs:
+  build-windows:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v3
+      
+    - name: Build Windows Docker image
+      run: |
+        docker build -f Dockerfile.windows -t haipx-windows .
+        
+    - name: Build HaipX for Windows
+      run: |
+        docker run --rm -v$(pwd):/project haipx-windows bash -c "
+          mkdir -p build-windows
+          cd build-windows
+          cmake -DCMAKE_TOOLCHAIN_FILE=../windows-toolchain.cmake ..
+          make -j$(nproc)
+        "
+        
+    - name: Upload Windows build artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: haipx-windows-build
+        path: |
+          build-windows/HaipX.exe
+          build-windows/res/
+        retention-days: 30 
