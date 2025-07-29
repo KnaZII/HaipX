@@ -1,69 +1,16 @@
-name: Single File Build Test
+name: Single File Build Test (DISABLED)
 
 on:
-  workflow_dispatch:
-  push:
-    branches: [ 0.28 ]
+  # workflow_dispatch:
+  # push:
+  #   branches: [ 0.28 ]
 
 jobs:
   test-single-file:
     runs-on: windows-latest
     
     steps:
-    - name: Checkout
-      uses: actions/checkout@v4
-      
-    - name: Setup Visual Studio
-      uses: microsoft/setup-msbuild@v1
-      
-    - name: Create test file
+    - name: This workflow is disabled
       run: |
-        echo "#include <iostream>" > test.cpp
-        echo "int main() {" >> test.cpp
-        echo "    std::cout << \"Hello, World!\" << std::endl;" >> test.cpp
-        echo "    return 0;" >> test.cpp
-        echo "}" >> test.cpp
-        
-    - name: Test basic compilation
-      run: |
-        echo "=== Testing Basic Compilation ==="
-        cl /EHsc test.cpp /Fe:test.exe
-        if (Test-Path test.exe) {
-            echo "Basic compilation SUCCESS"
-            .\test.exe
-        } else {
-            echo "Basic compilation FAILED"
-        }
-        
-    - name: Test main.cpp compilation
-      run: |
-        echo "=== Testing main.cpp compilation ==="
-        echo "Checking if main.cpp exists:"
-        if (Test-Path src\main.cpp) {
-            echo "main.cpp exists"
-            echo "First 10 lines:"
-            Get-Content src\main.cpp -Head 10
-        } else {
-            echo "main.cpp NOT FOUND"
-        }
-        
-    - name: Try to compile main.cpp directly
-      run: |
-        echo "=== Trying to compile main.cpp directly ==="
-        if (Test-Path src\main.cpp) {
-            cl /EHsc /I src src\main.cpp /Fe:haipx_test.exe
-            if (Test-Path haipx_test.exe) {
-                echo "main.cpp compilation SUCCESS"
-            } else {
-                echo "main.cpp compilation FAILED"
-            }
-        }
-        
-    - name: Upload test results
-      uses: actions/upload-artifact@v4
-      with:
-        name: Single-File-Test
-        path: |
-          test.exe
-          haipx_test.exe
-        retention-days: 1 
+        echo "This workflow is disabled. Use Simple Windows Build instead."
+        exit 1 

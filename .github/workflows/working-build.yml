@@ -1,48 +1,16 @@
-name: Working Windows Build
+name: Working Windows Build (DISABLED)
 
 on:
-  workflow_dispatch:
-  push:
-    branches: [ 0.28 ]
+  # workflow_dispatch:
+  # push:
+  #   branches: [ 0.28 ]
 
 jobs:
   build:
     runs-on: windows-latest
     
     steps:
-    - name: Checkout
-      uses: actions/checkout@v4
-      
-    - name: Setup Visual Studio
-      uses: microsoft/setup-msbuild@v1
-      
-    - name: Install CMake
-      uses: jwlawson/actions-setup-cmake@v1.12
-      with:
-        cmake-version: '3.25.0'
-        
-    - name: Install vcpkg
+    - name: This workflow is disabled
       run: |
-        git clone https://github.com/microsoft/vcpkg.git
-        cd vcpkg
-        .\bootstrap-vcpkg.bat
-        cd ..
-        
-    - name: Install dependencies
-      run: |
-        .\vcpkg\vcpkg install --triplet x64-windows
-        
-    - name: Build
-      run: |
-        mkdir build-working
-        cd build-working
-        cmake -G "Visual Studio 17 2022" -A x64 -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=../vcpkg/scripts/buildsystems/vcpkg.cmake ..
-        cmake --build . --config Release
-        
-    - name: Upload working build
-      uses: actions/upload-artifact@v4
-      with:
-        name: HaipX-Working-Windows
-        path: |
-          build-working/Release/HaipX.exe
-          build-working/res/ 
+        echo "This workflow is disabled. Use Simple Windows Build instead."
+        exit 1 

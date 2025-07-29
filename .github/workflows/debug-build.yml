@@ -1,83 +1,16 @@
-name: Debug Build Errors
+name: Debug Build Errors (DISABLED)
 
 on:
-  workflow_dispatch:
-  push:
-    branches: [ 0.28 ]
+  # workflow_dispatch:
+  # push:
+  #   branches: [ 0.28 ]
 
 jobs:
   debug:
     runs-on: windows-latest
     
     steps:
-    - name: Checkout
-      uses: actions/checkout@v4
-      
-    - name: Setup Visual Studio
-      uses: microsoft/setup-msbuild@v1
-      
-    - name: Install CMake
-      uses: jwlawson/actions-setup-cmake@v1.12
-      with:
-        cmake-version: '3.25.0'
-        
-    - name: Show environment
+    - name: This workflow is disabled
       run: |
-        echo "=== Environment Info ==="
-        echo "CMake version:"
-        cmake --version
-        echo "Visual Studio version:"
-        where cl
-        echo "Current directory:"
-        pwd
-        echo "Files in current directory:"
-        dir
-        
-    - name: Analyze source structure
-      run: |
-        echo "=== Source Structure ==="
-        echo "Main directory:"
-        dir
-        echo "Source directory:"
-        dir src
-        echo "All .cpp files:"
-        dir src\*.cpp /s
-        echo "All .hpp files:"
-        dir src\*.hpp /s
-        
-    - name: Check main.cpp
-      run: |
-        echo "=== Main.cpp Analysis ==="
-        echo "First 20 lines of main.cpp:"
-        Get-Content src\main.cpp -Head 20
-        
-    - name: Create ultra-simple build
-      run: |
-        echo "=== Creating Ultra-Simple Build ==="
-        echo "cmake_minimum_required(VERSION 3.5)" > CMakeLists-ultra.txt
-        echo "project(HaipX)" >> CMakeLists-ultra.txt
-        echo "set(CMAKE_CXX_STANDARD 17)" >> CMakeLists-ultra.txt
-        echo "set(CMAKE_CXX_STANDARD_REQUIRED ON)" >> CMakeLists-ultra.txt
-        echo "add_executable(HaipX src/main.cpp)" >> CMakeLists-ultra.txt
-        echo "target_include_directories(HaipX PRIVATE src)" >> CMakeLists-ultra.txt
-        
-    - name: Try ultra-simple configure
-      run: |
-        echo "=== Trying Ultra-Simple Configure ==="
-        mkdir build-ultra
-        cd build-ultra
-        cmake -G "Visual Studio 17 2022" -A x64 -f ../CMakeLists-ultra.txt .. -DCMAKE_VERBOSE_MAKEFILE=ON
-        
-    - name: Try ultra-simple build
-      run: |
-        echo "=== Trying Ultra-Simple Build ==="
-        cd build-ultra
-        cmake --build . --config Release --verbose
-        
-    - name: Upload debug info
-      uses: actions/upload-artifact@v4
-      with:
-        name: Debug-Info
-        path: |
-          build-ultra/
-        retention-days: 1 
+        echo "This workflow is disabled. Use Simple Windows Build instead."
+        exit 1 
