@@ -1,0 +1,34 @@
+name: Quick Build Windows
+
+on:
+  workflow_dispatch: # Ручной запуск
+  push:
+    branches: [ 0.28 ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      
+    - name: Setup MSVC
+      uses: microsoft/setup-msbuild@v1
+      
+    - name: Install dependencies
+      run: |
+        choco install cmake ninja -y
+        
+    - name: Build
+      run: |
+        mkdir build
+        cd build
+        cmake -G "Ninja" -DCMAKE_BUILD_TYPE=Release ..
+        ninja
+        
+    - name: Upload artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: HaipX-Windows
+        path: build/HaipX.exe 
