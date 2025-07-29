@@ -1,0 +1,124 @@
+# Build docker container: docker build -f Dockerfile.windows -t haipx-windows .
+# Build project: docker run --rm -it -v$(pwd):/project haipx-windows bash -c "cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_RPATH_USE_LINK_PATH=TRUE -Bbuild-windows && cmake --build build-windows"
+# Extract binaries: docker run --rm -it -v$(pwd):/project haipx-windows bash -c "cp -r build-windows/HaipX.exe . && cp -r res ."
+
+FROM debian:bookworm-slim
+LABEL Description="Docker container for building HaipX for Windows"
+
+# Install dependencies
+RUN apt-get update && apt-get install --no-install-recommends -y \
+    git \
+    g++ \
+    make \
+    cmake \
+    pkg-config \
+    wget \
+    ca-certificates \
+    mingw-w64 \
+    mingw-w64-tools \
+    wine \
+    wine32 \
+    wine64 \
+    && rm -rf /var/lib/apt/lists/*
+
+# Установка CMake >= 3.26 вручную
+ARG CMAKE_VERSION=3.27.9
+RUN wget https://github.com/Kitware/CMake/releases/download/v${CMAKE_VERSION}/cmake-${CMAKE_VERSION}-linux-x86_64.sh && \
+    chmod +x cmake-${CMAKE_VERSION}-linux-x86_64.sh && \
+    ./cmake-${CMAKE_VERSION}-linux-x86_64.sh --skip-license --prefix=/usr/local && \
+    rm cmake-${CMAKE_VERSION}-linux-x86_64.sh
+
+# Install Windows libraries
+RUN apt-get update && apt-get install --no-install-recommends -y \
+    libglfw3-dev \
+    libglew-dev \
+    libglm-dev \
+    libpng-dev \
+    libopenal-dev \
+    libluajit-5.1-dev \
+    libvorbis-dev \
+    libcurl4-openssl-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install EnTT for Windows
+RUN git clone https://github.com/skypjack/entt.git && \
+    cd entt/build && \
+    cmake -DCMAKE_BUILD_TYPE=Release -DENTT_INSTALL=on .. && \
+    make install && \
+    cd ../.. && rm -rf entt
+
+# CMake missing LUA_INCLUDE_DIR and LUA_LIBRARIES fix:
+RUN ln -s /usr/lib/x86_64-linux-gnu/libluajit-5.1.a /usr/lib/x86_64-linux-gnu/liblua5.1.a \
+    && ln -s /usr/include/luajit-2.1 /usr/include/lua
+
+# Install LuaJIT:
+RUN git clone https://luajit.org/git/luajit.git \
+    && cd luajit \
+    && make && make install INSTALL_INC=/usr/include/lua \
+    && cd .. && rm -rf luajit
+
+# Download and install Windows libraries
+WORKDIR /tmp/windows-libs
+
+# Install unzip for extracting archives
+RUN apt-get update && apt-get install --no-install-recommends -y unzip && rm -rf /var/lib/apt/lists/*
+
+# Download GLFW for Windows
+RUN wget https://github.com/glfw/glfw/releases/download/3.3.8/glfw-3.3.8.bin.WIN64.zip && \
+    unzip glfw-3.3.8.bin.WIN64.zip && \
+    cp -r glfw-3.3.8.bin.WIN64/include/* /usr/x86_64-w64-mingw32/include/ && \
+    cp -r glfw-3.3.8.bin.WIN64/lib-vc2022/* /usr/x86_64-w64-mingw32/lib/ && \
+    rm -rf glfw-3.3.8.bin.WIN64*
+
+# Download GLEW for Windows
+RUN wget https://github.com/nigels-com/glew/releases/download/glew-2.1.0/glew-2.1.0-win32.zip && \
+    unzip glew-2.1.0-win32.zip && \
+    cp -r glew-2.1.0/include/* /usr/x86_64-w64-mingw32/include/ && \
+    cp -r glew-2.1.0/lib/Release/x64/* /usr/x86_64-w64-mingw32/lib/ && \
+    rm -rf glew-2.1.0*
+
+# Download GLM for Windows
+RUN wget https://github.com/g-truc/glm/releases/download/0.9.9.8/glm-0.9.9.8.zip && \
+    unzip glm-0.9.9.8.zip && \
+    cp -r glm/glm /usr/x86_64-w64-mingw32/include/ && \
+    rm -rf glm*
+
+# Download libpng for Windows
+RUN wget https://github.com/glennrp/libpng/archive/refs/tags/v1.6.40.zip && \
+    unzip v1.6.40.zip && \
+    cd libpng-1.6.40 && \
+    ./configure --host=x86_64-w64-mingw32 --prefix=/usr/x86_64-w64-mingw32 && \
+    make && make install && \
+    cd .. && rm -rf libpng-1.6.40*
+
+# Download OpenAL for Windows
+RUN wget https://www.openal.org/downloads/openal-soft-1.23.1-bin.zip && \
+    unzip openal-soft-1.23.1-bin.zip && \
+    cp -r openal-soft-1.23.1-bin/include/* /usr/x86_64-w64-mingw32/include/ && \
+    cp -r openal-soft-1.23.1-bin/libs/Win64/* /usr/x86_64-w64-mingw32/lib/ && \
+    rm -rf openal-soft-1.23.1-bin*
+
+# Download libcurl for Windows
+RUN wget https://curl.se/windows/dl-8.4.0_5/curl-8.4.0_5-win64-mingw.zip && \
+    unzip curl-8.4.0_5-win64-mingw.zip && \
+    cp -r curl-8.4.0_5-win64-mingw/include/* /usr/x86_64-w64-mingw32/include/ && \
+    cp -r curl-8.4.0_5-win64-mingw/lib/* /usr/x86_64-w64-mingw32/lib/ && \
+    rm -rf curl-8.4.0_5-win64-mingw*
+
+# Download libvorbis for Windows
+RUN wget https://github.com/xiph/vorbis/releases/download/v1.3.7/libvorbis-1.3.7.tar.gz && \
+    tar -xzf libvorbis-1.3.7.tar.gz && \
+    cd libvorbis-1.3.7 && \
+    ./configure --host=x86_64-w64-mingw32 --prefix=/usr/x86_64-w64-mingw32 && \
+    make && make install && \
+    cd .. && rm -rf libvorbis-1.3.7*
+
+# Create default user
+ARG USER=user
+ARG UID=1000
+ARG GID=1000
+RUN useradd -m ${USER} --uid=${UID}
+USER ${UID}:${GID}
+
+# Project workspace
+WORKDIR /project 
