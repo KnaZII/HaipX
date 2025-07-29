@@ -2,9 +2,6 @@
 
 ## Latest release
 
-- [Download](https://github.com/MihailRis/HaipX/releases/latest) | [Скачать](https://github.com/MihailRis/HaipX/releases/latest)
-- [Documentation](https://github.com/MihailRis/HaipX/blob/release-0.28/doc/en/main-page.md) | [Документация](https://github.com/MihailRis/HaipX/blob/release-0.28/doc/ru/main-page.md)
-
 ## Build project in Linux
 
 ### Install libraries
@@ -187,4 +184,5 @@ docker run --rm -it -v "${PWD}:/project" haipx bash -c "cmake -DCMAKE_BUILD_TYPE
 ```powershell
 docker run --rm -it -v "${PWD}:/project" -e DISPLAY=host.docker.internal:0.0 --network host haipx ./build/HaipX
 ```
+# HaipX
 # HaipX
