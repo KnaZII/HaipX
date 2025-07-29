@@ -369,6 +369,88 @@ console.add_command(
     end
 )
 
+console.add_command(
+    "give item:str count:num=1",
+    "Дать предмет игроку",
+    function(args, kwargs)
+        local item_name = args[1]
+        local count = args[2]
+        local pid = hud.get_player()
+        
+        if not pid then
+            return "Игрок не найден"
+        end
+        
+        local item_id = item.index(item_name)
+        if item_id == 0 then
+            return "Предмет '" .. item_name .. "' не найден"
+        end
+        
+        local inv = player.get_inventory(pid)
+        if not inv then
+            return "Инвентарь не найден"
+        end
+        
+        -- Ищем свободный слот (ID 0 = пустой слот)
+        local slot = inventory.find_by_item(inv, 0)
+        if slot == nil then
+            return "Инвентарь полон"
+        end
+        
+        inventory.set(inv, slot, item_id, count)
+        return "Дано " .. count .. "x " .. item_name
+    end
+)
+
+console.add_command(
+    "music_discs",
+    "Дать все музыкальные пластинки",
+    function(args, kwargs)
+        local pid = hud.get_player()
+        
+        if not pid then
+            return "Игрок не найден"
+        end
+        
+        local inv = player.get_inventory(pid)
+        if not inv then
+            return "Инвентарь не найден"
+        end
+        
+        local discs = {
+            "base:music_disc_11",
+            "base:music_disc_13", 
+            "base:music_disc_5",
+            "base:music_disc_blocks",
+            "base:music_disc_cat",
+            "base:music_disc_chirp",
+            "base:music_disc_far",
+            "base:music_disc_mellohi",
+            "base:music_disc_otherside",
+            "base:music_disc_pigstep",
+            "base:music_disc_relic",
+            "base:music_disc_stal",
+            "base:music_disc_strad",
+            "base:music_disc_wait",
+            "base:music_disc_ward"
+        }
+        
+        local given = 0
+        for _, disc_name in ipairs(discs) do
+            local item_id = item.index(disc_name)
+            if item_id > 0 then
+                local slot = inventory.find_by_item(inv, 0)
+                if slot ~= nil then
+                    inventory.set(inv, slot, item_id, 1)
+                    given = given + 1
+                end
+            end
+        end
+        
+        return "Дано " .. given .. " музыкальных пластинок"
+    end
+)
+
 console.cheats = {
     "blocks.fill",
     "tp",
@@ -378,4 +460,6 @@ console.cheats = {
     "entity.despawn",
     "player.respawn",
     "weather.set",
+    "give",
+    "music_discs",
 }

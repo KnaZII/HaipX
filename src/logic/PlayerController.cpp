@@ -98,34 +98,31 @@ void CameraControl::updateMouse(PlayerInput& input, int windowHeight, float delt
         glm::radians(rotation.z)
     );
 
-    // Управление курсором при движении камеры
+    // Управление курсором - всегда скрыт во время игры
     if (inputSystem) {
-        bool isMoving = glm::length(input.delta) > CURSOR_MOVEMENT_THRESHOLD;
+        bool isCurrentlyLocked = inputSystem->getCursor().locked;
         
-        // Если UI блокирует ввод, не управляем курсором
-        if (uiBlocking) {
-            cursorShouldBeLocked = false;
-            cursorIdleTimer = 0.0f;
+        // Проверяем нажатие Escape для принудительного переключения курсора
+        static bool escapePressed = false;
+        if (inputSystem->jpressed(Keycode::ESCAPE)) {
+            if (!escapePressed) {
+                inputSystem->toggleCursor();
+                escapePressed = true;
+            }
         } else {
-            if (isMoving) {
-                cursorIdleTimer = 0.0f;
-                cursorShouldBeLocked = true;
-            } else {
-                cursorIdleTimer += delta;
-            }
-            
-            // Разблокируем курсор только после определенного времени без движения
-            if (cursorIdleTimer > CURSOR_IDLE_THRESHOLD) {
-                cursorShouldBeLocked = false;
-            }
+            escapePressed = false;
         }
         
-        // Применяем состояние курсора
-        bool isCurrentlyLocked = inputSystem->getCursor().locked;
-        if (cursorShouldBeLocked && !isCurrentlyLocked) {
-            inputSystem->toggleCursor();
-        } else if (!cursorShouldBeLocked && isCurrentlyLocked) {
-            inputSystem->toggleCursor();
+        // Если UI блокирует ввод, показываем курсор
+        if (uiBlocking) {
+            if (isCurrentlyLocked) {
+                inputSystem->toggleCursor();
+            }
+        } else {
+            // Во время игры курсор должен быть скрыт - ПРИНУДИТЕЛЬНО
+            if (!isCurrentlyLocked) {
+                inputSystem->toggleCursor();
+            }
         }
     }
 }

@@ -23,3 +23,10 @@ set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -static-libgcc")
 
 # Disable some features that don't work well with MinGW
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -DWIN32 -D_WINDOWS")
+
+# Set library paths
+set(CMAKE_LIBRARY_PATH ${CMAKE_FIND_ROOT_PATH}/lib)
+set(CMAKE_INCLUDE_PATH ${CMAKE_FIND_ROOT_PATH}/include)
+
+# Find packages in the target environment
+set(CMAKE_PREFIX_PATH ${CMAKE_FIND_ROOT_PATH})

@@ -1,0 +1,20 @@
+{
+  "next-player-id": 1,
+  "seed": 15406453339819,
+  "weather": {
+    "fog": 0
+  },
+  "time": {
+    "day-time-speed": 1,
+    "total-time": 34.5611420469359,
+    "day-time": 0.440667480230331
+  },
+  "generator": "base:beta",
+  "next-entity-id": 2,
+  "next-inventory-id": 2,
+  "name": "New World",
+  "version": {
+    "minor": 28,
+    "major": 0
+  }
+}

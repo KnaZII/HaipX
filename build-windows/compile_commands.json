@@ -1,0 +1,1142 @@
+[
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/assets/Assets.cpp.obj -c /project/src/assets/Assets.cpp",
+  "file": "/project/src/assets/Assets.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/assets/AssetsLoader.cpp.obj -c /project/src/assets/AssetsLoader.cpp",
+  "file": "/project/src/assets/AssetsLoader.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/assets/assetload_funcs.cpp.obj -c /project/src/assets/assetload_funcs.cpp",
+  "file": "/project/src/assets/assetload_funcs.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/assets/assets_util.cpp.obj -c /project/src/assets/assets_util.cpp",
+  "file": "/project/src/assets/assets_util.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/audio/AL/ALAudio.cpp.obj -c /project/src/audio/AL/ALAudio.cpp",
+  "file": "/project/src/audio/AL/ALAudio.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/audio/AL/alutil.cpp.obj -c /project/src/audio/AL/alutil.cpp",
+  "file": "/project/src/audio/AL/alutil.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/audio/NoAudio.cpp.obj -c /project/src/audio/NoAudio.cpp",
+  "file": "/project/src/audio/NoAudio.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/audio/audio.cpp.obj -c /project/src/audio/audio.cpp",
+  "file": "/project/src/audio/audio.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/coders/GLSLExtension.cpp.obj -c /project/src/coders/GLSLExtension.cpp",
+  "file": "/project/src/coders/GLSLExtension.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/coders/binary_json.cpp.obj -c /project/src/coders/binary_json.cpp",
+  "file": "/project/src/coders/binary_json.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/coders/byte_utils.cpp.obj -c /project/src/coders/byte_utils.cpp",
+  "file": "/project/src/coders/byte_utils.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/coders/commons.cpp.obj -c /project/src/coders/commons.cpp",
+  "file": "/project/src/coders/commons.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/coders/compression.cpp.obj -c /project/src/coders/compression.cpp",
+  "file": "/project/src/coders/compression.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/coders/gzip.cpp.obj -c /project/src/coders/gzip.cpp",
+  "file": "/project/src/coders/gzip.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/coders/imageio.cpp.obj -c /project/src/coders/imageio.cpp",
+  "file": "/project/src/coders/imageio.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/coders/json.cpp.obj -c /project/src/coders/json.cpp",
+  "file": "/project/src/coders/json.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/coders/obj.cpp.obj -c /project/src/coders/obj.cpp",
+  "file": "/project/src/coders/obj.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/coders/ogg.cpp.obj -c /project/src/coders/ogg.cpp",
+  "file": "/project/src/coders/ogg.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/coders/png.cpp.obj -c /project/src/coders/png.cpp",
+  "file": "/project/src/coders/png.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/coders/rle.cpp.obj -c /project/src/coders/rle.cpp",
+  "file": "/project/src/coders/rle.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/coders/syntax_parser.cpp.obj -c /project/src/coders/syntax_parser.cpp",
+  "file": "/project/src/coders/syntax_parser.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/coders/toml.cpp.obj -c /project/src/coders/toml.cpp",
+  "file": "/project/src/coders/toml.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/coders/vcm.cpp.obj -c /project/src/coders/vcm.cpp",
+  "file": "/project/src/coders/vcm.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/coders/vec3.cpp.obj -c /project/src/coders/vec3.cpp",
+  "file": "/project/src/coders/vec3.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/coders/wav.cpp.obj -c /project/src/coders/wav.cpp",
+  "file": "/project/src/coders/wav.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/coders/xml.cpp.obj -c /project/src/coders/xml.cpp",
+  "file": "/project/src/coders/xml.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/coders/yaml.cpp.obj -c /project/src/coders/yaml.cpp",
+  "file": "/project/src/coders/yaml.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/content/Content.cpp.obj -c /project/src/content/Content.cpp",
+  "file": "/project/src/content/Content.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/content/ContentBuilder.cpp.obj -c /project/src/content/ContentBuilder.cpp",
+  "file": "/project/src/content/ContentBuilder.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/content/ContentControl.cpp.obj -c /project/src/content/ContentControl.cpp",
+  "file": "/project/src/content/ContentControl.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/content/ContentLoader.cpp.obj -c /project/src/content/ContentLoader.cpp",
+  "file": "/project/src/content/ContentLoader.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/content/ContentPack.cpp.obj -c /project/src/content/ContentPack.cpp",
+  "file": "/project/src/content/ContentPack.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/content/ContentReport.cpp.obj -c /project/src/content/ContentReport.cpp",
+  "file": "/project/src/content/ContentReport.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/content/PacksManager.cpp.obj -c /project/src/content/PacksManager.cpp",
+  "file": "/project/src/content/PacksManager.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/content/loading/BlockLoader.cpp.obj -c /project/src/content/loading/BlockLoader.cpp",
+  "file": "/project/src/content/loading/BlockLoader.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/content/loading/EntityLoader.cpp.obj -c /project/src/content/loading/EntityLoader.cpp",
+  "file": "/project/src/content/loading/EntityLoader.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/content/loading/GeneratorLoader.cpp.obj -c /project/src/content/loading/GeneratorLoader.cpp",
+  "file": "/project/src/content/loading/GeneratorLoader.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/content/loading/ItemLoader.cpp.obj -c /project/src/content/loading/ItemLoader.cpp",
+  "file": "/project/src/content/loading/ItemLoader.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/core_defs.cpp.obj -c /project/src/core_defs.cpp",
+  "file": "/project/src/core_defs.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/data/StructLayout.cpp.obj -c /project/src/data/StructLayout.cpp",
+  "file": "/project/src/data/StructLayout.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/data/dv.cpp.obj -c /project/src/data/dv.cpp",
+  "file": "/project/src/data/dv.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/data/setting.cpp.obj -c /project/src/data/setting.cpp",
+  "file": "/project/src/data/setting.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/debug/Logger.cpp.obj -c /project/src/debug/Logger.cpp",
+  "file": "/project/src/debug/Logger.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/devtools/Editor.cpp.obj -c /project/src/devtools/Editor.cpp",
+  "file": "/project/src/devtools/Editor.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/devtools/Project.cpp.obj -c /project/src/devtools/Project.cpp",
+  "file": "/project/src/devtools/Project.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/devtools/SyntaxProcessor.cpp.obj -c /project/src/devtools/SyntaxProcessor.cpp",
+  "file": "/project/src/devtools/SyntaxProcessor.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/engine/Engine.cpp.obj -c /project/src/engine/Engine.cpp",
+  "file": "/project/src/engine/Engine.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/engine/Mainloop.cpp.obj -c /project/src/engine/Mainloop.cpp",
+  "file": "/project/src/engine/Mainloop.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/engine/ServerMainloop.cpp.obj -c /project/src/engine/ServerMainloop.cpp",
+  "file": "/project/src/engine/ServerMainloop.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/frontend/ContentGfxCache.cpp.obj -c /project/src/frontend/ContentGfxCache.cpp",
+  "file": "/project/src/frontend/ContentGfxCache.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/frontend/LevelFrontend.cpp.obj -c /project/src/frontend/LevelFrontend.cpp",
+  "file": "/project/src/frontend/LevelFrontend.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/frontend/UiDocument.cpp.obj -c /project/src/frontend/UiDocument.cpp",
+  "file": "/project/src/frontend/UiDocument.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/frontend/debug_panel.cpp.obj -c /project/src/frontend/debug_panel.cpp",
+  "file": "/project/src/frontend/debug_panel.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/frontend/hud.cpp.obj -c /project/src/frontend/hud.cpp",
+  "file": "/project/src/frontend/hud.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/frontend/locale.cpp.obj -c /project/src/frontend/locale.cpp",
+  "file": "/project/src/frontend/locale.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/frontend/menu.cpp.obj -c /project/src/frontend/menu.cpp",
+  "file": "/project/src/frontend/menu.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/frontend/screens/LevelScreen.cpp.obj -c /project/src/frontend/screens/LevelScreen.cpp",
+  "file": "/project/src/frontend/screens/LevelScreen.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/frontend/screens/MenuScreen.cpp.obj -c /project/src/frontend/screens/MenuScreen.cpp",
+  "file": "/project/src/frontend/screens/MenuScreen.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/frontend/screens/Screen.cpp.obj -c /project/src/frontend/screens/Screen.cpp",
+  "file": "/project/src/frontend/screens/Screen.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/commons/Model.cpp.obj -c /project/src/graphics/commons/Model.cpp",
+  "file": "/project/src/graphics/commons/Model.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/core/Atlas.cpp.obj -c /project/src/graphics/core/Atlas.cpp",
+  "file": "/project/src/graphics/core/Atlas.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/core/Batch2D.cpp.obj -c /project/src/graphics/core/Batch2D.cpp",
+  "file": "/project/src/graphics/core/Batch2D.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/core/Batch3D.cpp.obj -c /project/src/graphics/core/Batch3D.cpp",
+  "file": "/project/src/graphics/core/Batch3D.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/core/Cubemap.cpp.obj -c /project/src/graphics/core/Cubemap.cpp",
+  "file": "/project/src/graphics/core/Cubemap.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/core/DrawContext.cpp.obj -c /project/src/graphics/core/DrawContext.cpp",
+  "file": "/project/src/graphics/core/DrawContext.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/core/Font.cpp.obj -c /project/src/graphics/core/Font.cpp",
+  "file": "/project/src/graphics/core/Font.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/core/Framebuffer.cpp.obj -c /project/src/graphics/core/Framebuffer.cpp",
+  "file": "/project/src/graphics/core/Framebuffer.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/core/GBuffer.cpp.obj -c /project/src/graphics/core/GBuffer.cpp",
+  "file": "/project/src/graphics/core/GBuffer.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/core/ImageData.cpp.obj -c /project/src/graphics/core/ImageData.cpp",
+  "file": "/project/src/graphics/core/ImageData.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/core/LineBatch.cpp.obj -c /project/src/graphics/core/LineBatch.cpp",
+  "file": "/project/src/graphics/core/LineBatch.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/core/Mesh.cpp.obj -c /project/src/graphics/core/Mesh.cpp",
+  "file": "/project/src/graphics/core/Mesh.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/core/PostEffect.cpp.obj -c /project/src/graphics/core/PostEffect.cpp",
+  "file": "/project/src/graphics/core/PostEffect.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/core/PostProcessing.cpp.obj -c /project/src/graphics/core/PostProcessing.cpp",
+  "file": "/project/src/graphics/core/PostProcessing.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/core/Shader.cpp.obj -c /project/src/graphics/core/Shader.cpp",
+  "file": "/project/src/graphics/core/Shader.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/core/ShadowMap.cpp.obj -c /project/src/graphics/core/ShadowMap.cpp",
+  "file": "/project/src/graphics/core/ShadowMap.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/core/Texture.cpp.obj -c /project/src/graphics/core/Texture.cpp",
+  "file": "/project/src/graphics/core/Texture.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/core/TextureAnimation.cpp.obj -c /project/src/graphics/core/TextureAnimation.cpp",
+  "file": "/project/src/graphics/core/TextureAnimation.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/render/BlockWrapsRenderer.cpp.obj -c /project/src/graphics/render/BlockWrapsRenderer.cpp",
+  "file": "/project/src/graphics/render/BlockWrapsRenderer.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/render/BlocksPreview.cpp.obj -c /project/src/graphics/render/BlocksPreview.cpp",
+  "file": "/project/src/graphics/render/BlocksPreview.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/render/BlocksRenderer.cpp.obj -c /project/src/graphics/render/BlocksRenderer.cpp",
+  "file": "/project/src/graphics/render/BlocksRenderer.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/render/ChunksRenderer.cpp.obj -c /project/src/graphics/render/ChunksRenderer.cpp",
+  "file": "/project/src/graphics/render/ChunksRenderer.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/render/Decorator.cpp.obj -c /project/src/graphics/render/Decorator.cpp",
+  "file": "/project/src/graphics/render/Decorator.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/render/Emitter.cpp.obj -c /project/src/graphics/render/Emitter.cpp",
+  "file": "/project/src/graphics/render/Emitter.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/render/GuidesRenderer.cpp.obj -c /project/src/graphics/render/GuidesRenderer.cpp",
+  "file": "/project/src/graphics/render/GuidesRenderer.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/render/MainBatch.cpp.obj -c /project/src/graphics/render/MainBatch.cpp",
+  "file": "/project/src/graphics/render/MainBatch.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/render/ModelBatch.cpp.obj -c /project/src/graphics/render/ModelBatch.cpp",
+  "file": "/project/src/graphics/render/ModelBatch.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/render/ModelsGenerator.cpp.obj -c /project/src/graphics/render/ModelsGenerator.cpp",
+  "file": "/project/src/graphics/render/ModelsGenerator.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/render/ParticlesRenderer.cpp.obj -c /project/src/graphics/render/ParticlesRenderer.cpp",
+  "file": "/project/src/graphics/render/ParticlesRenderer.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/render/PrecipitationRenderer.cpp.obj -c /project/src/graphics/render/PrecipitationRenderer.cpp",
+  "file": "/project/src/graphics/render/PrecipitationRenderer.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/render/Skybox.cpp.obj -c /project/src/graphics/render/Skybox.cpp",
+  "file": "/project/src/graphics/render/Skybox.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/render/TextNote.cpp.obj -c /project/src/graphics/render/TextNote.cpp",
+  "file": "/project/src/graphics/render/TextNote.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/render/TextsRenderer.cpp.obj -c /project/src/graphics/render/TextsRenderer.cpp",
+  "file": "/project/src/graphics/render/TextsRenderer.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/render/WorldRenderer.cpp.obj -c /project/src/graphics/render/WorldRenderer.cpp",
+  "file": "/project/src/graphics/render/WorldRenderer.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/ui/GUI.cpp.obj -c /project/src/graphics/ui/GUI.cpp",
+  "file": "/project/src/graphics/ui/GUI.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/ui/elements/Button.cpp.obj -c /project/src/graphics/ui/elements/Button.cpp",
+  "file": "/project/src/graphics/ui/elements/Button.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/ui/elements/Canvas.cpp.obj -c /project/src/graphics/ui/elements/Canvas.cpp",
+  "file": "/project/src/graphics/ui/elements/Canvas.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/ui/elements/CheckBox.cpp.obj -c /project/src/graphics/ui/elements/CheckBox.cpp",
+  "file": "/project/src/graphics/ui/elements/CheckBox.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/ui/elements/Container.cpp.obj -c /project/src/graphics/ui/elements/Container.cpp",
+  "file": "/project/src/graphics/ui/elements/Container.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/ui/elements/Image.cpp.obj -c /project/src/graphics/ui/elements/Image.cpp",
+  "file": "/project/src/graphics/ui/elements/Image.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/ui/elements/InlineFrame.cpp.obj -c /project/src/graphics/ui/elements/InlineFrame.cpp",
+  "file": "/project/src/graphics/ui/elements/InlineFrame.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/ui/elements/InputBindBox.cpp.obj -c /project/src/graphics/ui/elements/InputBindBox.cpp",
+  "file": "/project/src/graphics/ui/elements/InputBindBox.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/ui/elements/InventoryView.cpp.obj -c /project/src/graphics/ui/elements/InventoryView.cpp",
+  "file": "/project/src/graphics/ui/elements/InventoryView.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/ui/elements/Label.cpp.obj -c /project/src/graphics/ui/elements/Label.cpp",
+  "file": "/project/src/graphics/ui/elements/Label.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/ui/elements/Menu.cpp.obj -c /project/src/graphics/ui/elements/Menu.cpp",
+  "file": "/project/src/graphics/ui/elements/Menu.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/ui/elements/ModelViewer.cpp.obj -c /project/src/graphics/ui/elements/ModelViewer.cpp",
+  "file": "/project/src/graphics/ui/elements/ModelViewer.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/ui/elements/Panel.cpp.obj -c /project/src/graphics/ui/elements/Panel.cpp",
+  "file": "/project/src/graphics/ui/elements/Panel.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/ui/elements/Plotter.cpp.obj -c /project/src/graphics/ui/elements/Plotter.cpp",
+  "file": "/project/src/graphics/ui/elements/Plotter.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/ui/elements/SelectBox.cpp.obj -c /project/src/graphics/ui/elements/SelectBox.cpp",
+  "file": "/project/src/graphics/ui/elements/SelectBox.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/ui/elements/SplitBox.cpp.obj -c /project/src/graphics/ui/elements/SplitBox.cpp",
+  "file": "/project/src/graphics/ui/elements/SplitBox.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/ui/elements/TextBox.cpp.obj -c /project/src/graphics/ui/elements/TextBox.cpp",
+  "file": "/project/src/graphics/ui/elements/TextBox.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/ui/elements/TrackBar.cpp.obj -c /project/src/graphics/ui/elements/TrackBar.cpp",
+  "file": "/project/src/graphics/ui/elements/TrackBar.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/ui/elements/UINode.cpp.obj -c /project/src/graphics/ui/elements/UINode.cpp",
+  "file": "/project/src/graphics/ui/elements/UINode.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/ui/gui_util.cpp.obj -c /project/src/graphics/ui/gui_util.cpp",
+  "file": "/project/src/graphics/ui/gui_util.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/ui/gui_xml.cpp.obj -c /project/src/graphics/ui/gui_xml.cpp",
+  "file": "/project/src/graphics/ui/gui_xml.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/graphics/ui/markdown.cpp.obj -c /project/src/graphics/ui/markdown.cpp",
+  "file": "/project/src/graphics/ui/markdown.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/io/devices/Device.cpp.obj -c /project/src/io/devices/Device.cpp",
+  "file": "/project/src/io/devices/Device.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/io/devices/StdfsDevice.cpp.obj -c /project/src/io/devices/StdfsDevice.cpp",
+  "file": "/project/src/io/devices/StdfsDevice.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/io/devices/ZipFileDevice.cpp.obj -c /project/src/io/devices/ZipFileDevice.cpp",
+  "file": "/project/src/io/devices/ZipFileDevice.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/io/engine_paths.cpp.obj -c /project/src/io/engine_paths.cpp",
+  "file": "/project/src/io/engine_paths.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/io/io.cpp.obj -c /project/src/io/io.cpp",
+  "file": "/project/src/io/io.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/io/path.cpp.obj -c /project/src/io/path.cpp",
+  "file": "/project/src/io/path.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/io/settings_io.cpp.obj -c /project/src/io/settings_io.cpp",
+  "file": "/project/src/io/settings_io.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/items/Inventories.cpp.obj -c /project/src/items/Inventories.cpp",
+  "file": "/project/src/items/Inventories.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/items/Inventory.cpp.obj -c /project/src/items/Inventory.cpp",
+  "file": "/project/src/items/Inventory.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/items/ItemDef.cpp.obj -c /project/src/items/ItemDef.cpp",
+  "file": "/project/src/items/ItemDef.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/items/ItemStack.cpp.obj -c /project/src/items/ItemStack.cpp",
+  "file": "/project/src/items/ItemStack.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/lighting/LightSolver.cpp.obj -c /project/src/lighting/LightSolver.cpp",
+  "file": "/project/src/lighting/LightSolver.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/lighting/Lighting.cpp.obj -c /project/src/lighting/Lighting.cpp",
+  "file": "/project/src/lighting/Lighting.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/lighting/Lightmap.cpp.obj -c /project/src/lighting/Lightmap.cpp",
+  "file": "/project/src/lighting/Lightmap.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/BlocksController.cpp.obj -c /project/src/logic/BlocksController.cpp",
+  "file": "/project/src/logic/BlocksController.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/ChunksController.cpp.obj -c /project/src/logic/ChunksController.cpp",
+  "file": "/project/src/logic/ChunksController.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/CommandsInterpreter.cpp.obj -c /project/src/logic/CommandsInterpreter.cpp",
+  "file": "/project/src/logic/CommandsInterpreter.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/EngineController.cpp.obj -c /project/src/logic/EngineController.cpp",
+  "file": "/project/src/logic/EngineController.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/LevelController.cpp.obj -c /project/src/logic/LevelController.cpp",
+  "file": "/project/src/logic/LevelController.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/PlayerController.cpp.obj -c /project/src/logic/PlayerController.cpp",
+  "file": "/project/src/logic/PlayerController.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/lua/libs/lib__rigidbody.cpp.obj -c /project/src/logic/scripting/lua/libs/lib__rigidbody.cpp",
+  "file": "/project/src/logic/scripting/lua/libs/lib__rigidbody.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/lua/libs/lib__skeleton.cpp.obj -c /project/src/logic/scripting/lua/libs/lib__skeleton.cpp",
+  "file": "/project/src/logic/scripting/lua/libs/lib__skeleton.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/lua/libs/lib__transform.cpp.obj -c /project/src/logic/scripting/lua/libs/lib__transform.cpp",
+  "file": "/project/src/logic/scripting/lua/libs/lib__transform.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/lua/libs/libapp.cpp.obj -c /project/src/logic/scripting/lua/libs/libapp.cpp",
+  "file": "/project/src/logic/scripting/lua/libs/libapp.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/lua/libs/libassets.cpp.obj -c /project/src/logic/scripting/lua/libs/libassets.cpp",
+  "file": "/project/src/logic/scripting/lua/libs/libassets.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/lua/libs/libaudio.cpp.obj -c /project/src/logic/scripting/lua/libs/libaudio.cpp",
+  "file": "/project/src/logic/scripting/lua/libs/libaudio.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/lua/libs/libbase64.cpp.obj -c /project/src/logic/scripting/lua/libs/libbase64.cpp",
+  "file": "/project/src/logic/scripting/lua/libs/libbase64.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/lua/libs/libbjson.cpp.obj -c /project/src/logic/scripting/lua/libs/libbjson.cpp",
+  "file": "/project/src/logic/scripting/lua/libs/libbjson.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/lua/libs/libblock.cpp.obj -c /project/src/logic/scripting/lua/libs/libblock.cpp",
+  "file": "/project/src/logic/scripting/lua/libs/libblock.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/lua/libs/libblockwraps.cpp.obj -c /project/src/logic/scripting/lua/libs/libblockwraps.cpp",
+  "file": "/project/src/logic/scripting/lua/libs/libblockwraps.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/lua/libs/libbyteutil.cpp.obj -c /project/src/logic/scripting/lua/libs/libbyteutil.cpp",
+  "file": "/project/src/logic/scripting/lua/libs/libbyteutil.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/lua/libs/libcamera.cpp.obj -c /project/src/logic/scripting/lua/libs/libcamera.cpp",
+  "file": "/project/src/logic/scripting/lua/libs/libcamera.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/lua/libs/libconsole.cpp.obj -c /project/src/logic/scripting/lua/libs/libconsole.cpp",
+  "file": "/project/src/logic/scripting/lua/libs/libconsole.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/lua/libs/libcore.cpp.obj -c /project/src/logic/scripting/lua/libs/libcore.cpp",
+  "file": "/project/src/logic/scripting/lua/libs/libcore.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/lua/libs/libentity.cpp.obj -c /project/src/logic/scripting/lua/libs/libentity.cpp",
+  "file": "/project/src/logic/scripting/lua/libs/libentity.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/lua/libs/libfile.cpp.obj -c /project/src/logic/scripting/lua/libs/libfile.cpp",
+  "file": "/project/src/logic/scripting/lua/libs/libfile.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/lua/libs/libgeneration.cpp.obj -c /project/src/logic/scripting/lua/libs/libgeneration.cpp",
+  "file": "/project/src/logic/scripting/lua/libs/libgeneration.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/lua/libs/libgui.cpp.obj -c /project/src/logic/scripting/lua/libs/libgui.cpp",
+  "file": "/project/src/logic/scripting/lua/libs/libgui.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/lua/libs/libhud.cpp.obj -c /project/src/logic/scripting/lua/libs/libhud.cpp",
+  "file": "/project/src/logic/scripting/lua/libs/libhud.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/lua/libs/libinput.cpp.obj -c /project/src/logic/scripting/lua/libs/libinput.cpp",
+  "file": "/project/src/logic/scripting/lua/libs/libinput.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/lua/libs/libinventory.cpp.obj -c /project/src/logic/scripting/lua/libs/libinventory.cpp",
+  "file": "/project/src/logic/scripting/lua/libs/libinventory.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/lua/libs/libitem.cpp.obj -c /project/src/logic/scripting/lua/libs/libitem.cpp",
+  "file": "/project/src/logic/scripting/lua/libs/libitem.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/lua/libs/libjson.cpp.obj -c /project/src/logic/scripting/lua/libs/libjson.cpp",
+  "file": "/project/src/logic/scripting/lua/libs/libjson.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/lua/libs/libmat4.cpp.obj -c /project/src/logic/scripting/lua/libs/libmat4.cpp",
+  "file": "/project/src/logic/scripting/lua/libs/libmat4.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/lua/libs/libnetwork.cpp.obj -c /project/src/logic/scripting/lua/libs/libnetwork.cpp",
+  "file": "/project/src/logic/scripting/lua/libs/libnetwork.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/lua/libs/libpack.cpp.obj -c /project/src/logic/scripting/lua/libs/libpack.cpp",
+  "file": "/project/src/logic/scripting/lua/libs/libpack.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/lua/libs/libparticles.cpp.obj -c /project/src/logic/scripting/lua/libs/libparticles.cpp",
+  "file": "/project/src/logic/scripting/lua/libs/libparticles.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/lua/libs/libplayer.cpp.obj -c /project/src/logic/scripting/lua/libs/libplayer.cpp",
+  "file": "/project/src/logic/scripting/lua/libs/libplayer.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/lua/libs/libposteffects.cpp.obj -c /project/src/logic/scripting/lua/libs/libposteffects.cpp",
+  "file": "/project/src/logic/scripting/lua/libs/libposteffects.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/lua/libs/libquat.cpp.obj -c /project/src/logic/scripting/lua/libs/libquat.cpp",
+  "file": "/project/src/logic/scripting/lua/libs/libquat.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/lua/libs/libtext3d.cpp.obj -c /project/src/logic/scripting/lua/libs/libtext3d.cpp",
+  "file": "/project/src/logic/scripting/lua/libs/libtext3d.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/lua/libs/libtime.cpp.obj -c /project/src/logic/scripting/lua/libs/libtime.cpp",
+  "file": "/project/src/logic/scripting/lua/libs/libtime.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/lua/libs/libtoml.cpp.obj -c /project/src/logic/scripting/lua/libs/libtoml.cpp",
+  "file": "/project/src/logic/scripting/lua/libs/libtoml.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/lua/libs/libutf8.cpp.obj -c /project/src/logic/scripting/lua/libs/libutf8.cpp",
+  "file": "/project/src/logic/scripting/lua/libs/libutf8.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/lua/libs/libvecn.cpp.obj -c /project/src/logic/scripting/lua/libs/libvecn.cpp",
+  "file": "/project/src/logic/scripting/lua/libs/libvecn.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/lua/libs/libweather.cpp.obj -c /project/src/logic/scripting/lua/libs/libweather.cpp",
+  "file": "/project/src/logic/scripting/lua/libs/libweather.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/lua/libs/libworld.cpp.obj -c /project/src/logic/scripting/lua/libs/libworld.cpp",
+  "file": "/project/src/logic/scripting/lua/libs/libworld.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/lua/libs/libyaml.cpp.obj -c /project/src/logic/scripting/lua/libs/libyaml.cpp",
+  "file": "/project/src/logic/scripting/lua/libs/libyaml.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/lua/lua_commons.cpp.obj -c /project/src/logic/scripting/lua/lua_commons.cpp",
+  "file": "/project/src/logic/scripting/lua/lua_commons.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/lua/lua_engine.cpp.obj -c /project/src/logic/scripting/lua/lua_engine.cpp",
+  "file": "/project/src/logic/scripting/lua/lua_engine.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/lua/lua_extensions.cpp.obj -c /project/src/logic/scripting/lua/lua_extensions.cpp",
+  "file": "/project/src/logic/scripting/lua/lua_extensions.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/lua/lua_overrides.cpp.obj -c /project/src/logic/scripting/lua/lua_overrides.cpp",
+  "file": "/project/src/logic/scripting/lua/lua_overrides.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/lua/lua_util.cpp.obj -c /project/src/logic/scripting/lua/lua_util.cpp",
+  "file": "/project/src/logic/scripting/lua/lua_util.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/lua/usertypes/lua_type_canvas.cpp.obj -c /project/src/logic/scripting/lua/usertypes/lua_type_canvas.cpp",
+  "file": "/project/src/logic/scripting/lua/usertypes/lua_type_canvas.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/lua/usertypes/lua_type_heightmap.cpp.obj -c /project/src/logic/scripting/lua/usertypes/lua_type_heightmap.cpp",
+  "file": "/project/src/logic/scripting/lua/usertypes/lua_type_heightmap.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/lua/usertypes/lua_type_voxelfragment.cpp.obj -c /project/src/logic/scripting/lua/usertypes/lua_type_voxelfragment.cpp",
+  "file": "/project/src/logic/scripting/lua/usertypes/lua_type_voxelfragment.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/scripting.cpp.obj -c /project/src/logic/scripting/scripting.cpp",
+  "file": "/project/src/logic/scripting/scripting.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/scripting_functional.cpp.obj -c /project/src/logic/scripting/scripting_functional.cpp",
+  "file": "/project/src/logic/scripting/scripting_functional.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/scripting_hud.cpp.obj -c /project/src/logic/scripting/scripting_hud.cpp",
+  "file": "/project/src/logic/scripting/scripting_hud.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/logic/scripting/scripting_world_generation.cpp.obj -c /project/src/logic/scripting/scripting_world_generation.cpp",
+  "file": "/project/src/logic/scripting/scripting_world_generation.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/maths/Heightmap.cpp.obj -c /project/src/maths/Heightmap.cpp",
+  "file": "/project/src/maths/Heightmap.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/maths/LMPacker.cpp.obj -c /project/src/maths/LMPacker.cpp",
+  "file": "/project/src/maths/LMPacker.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/maths/rays.cpp.obj -c /project/src/maths/rays.cpp",
+  "file": "/project/src/maths/rays.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/network/Network.cpp.obj -c /project/src/network/Network.cpp",
+  "file": "/project/src/network/Network.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/objects/Entities.cpp.obj -c /project/src/objects/Entities.cpp",
+  "file": "/project/src/objects/Entities.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/objects/EntityDef.cpp.obj -c /project/src/objects/EntityDef.cpp",
+  "file": "/project/src/objects/EntityDef.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/objects/Player.cpp.obj -c /project/src/objects/Player.cpp",
+  "file": "/project/src/objects/Player.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/objects/Players.cpp.obj -c /project/src/objects/Players.cpp",
+  "file": "/project/src/objects/Players.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/objects/rigging.cpp.obj -c /project/src/objects/rigging.cpp",
+  "file": "/project/src/objects/rigging.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/physics/Hitbox.cpp.obj -c /project/src/physics/Hitbox.cpp",
+  "file": "/project/src/physics/Hitbox.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/physics/PhysicsSolver.cpp.obj -c /project/src/physics/PhysicsSolver.cpp",
+  "file": "/project/src/physics/PhysicsSolver.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/presets/NotePreset.cpp.obj -c /project/src/presets/NotePreset.cpp",
+  "file": "/project/src/presets/NotePreset.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/presets/ParticlesPreset.cpp.obj -c /project/src/presets/ParticlesPreset.cpp",
+  "file": "/project/src/presets/ParticlesPreset.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/presets/WeatherPreset.cpp.obj -c /project/src/presets/WeatherPreset.cpp",
+  "file": "/project/src/presets/WeatherPreset.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/util/Clock.cpp.obj -c /project/src/util/Clock.cpp",
+  "file": "/project/src/util/Clock.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/util/command_line.cpp.obj -c /project/src/util/command_line.cpp",
+  "file": "/project/src/util/command_line.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/util/platform.cpp.obj -c /project/src/util/platform.cpp",
+  "file": "/project/src/util/platform.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/util/stringutil.cpp.obj -c /project/src/util/stringutil.cpp",
+  "file": "/project/src/util/stringutil.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/util/timeutil.cpp.obj -c /project/src/util/timeutil.cpp",
+  "file": "/project/src/util/timeutil.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/voxels/Block.cpp.obj -c /project/src/voxels/Block.cpp",
+  "file": "/project/src/voxels/Block.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/voxels/Chunk.cpp.obj -c /project/src/voxels/Chunk.cpp",
+  "file": "/project/src/voxels/Chunk.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/voxels/Chunks.cpp.obj -c /project/src/voxels/Chunks.cpp",
+  "file": "/project/src/voxels/Chunks.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/voxels/GlobalChunks.cpp.obj -c /project/src/voxels/GlobalChunks.cpp",
+  "file": "/project/src/voxels/GlobalChunks.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/voxels/VoxelsVolume.cpp.obj -c /project/src/voxels/VoxelsVolume.cpp",
+  "file": "/project/src/voxels/VoxelsVolume.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/voxels/blocks_agent.cpp.obj -c /project/src/voxels/blocks_agent.cpp",
+  "file": "/project/src/voxels/blocks_agent.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/voxels/compressed_chunks.cpp.obj -c /project/src/voxels/compressed_chunks.cpp",
+  "file": "/project/src/voxels/compressed_chunks.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/window/Camera.cpp.obj -c /project/src/window/Camera.cpp",
+  "file": "/project/src/window/Camera.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/window/detail/GLFWWindow.cpp.obj -c /project/src/window/detail/GLFWWindow.cpp",
+  "file": "/project/src/window/detail/GLFWWindow.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/window/input.cpp.obj -c /project/src/window/input.cpp",
+  "file": "/project/src/window/input.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/world/Level.cpp.obj -c /project/src/world/Level.cpp",
+  "file": "/project/src/world/Level.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/world/LevelEvents.cpp.obj -c /project/src/world/LevelEvents.cpp",
+  "file": "/project/src/world/LevelEvents.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/world/Weather.cpp.obj -c /project/src/world/Weather.cpp",
+  "file": "/project/src/world/Weather.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/world/World.cpp.obj -c /project/src/world/World.cpp",
+  "file": "/project/src/world/World.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/world/files/RegionsLayer.cpp.obj -c /project/src/world/files/RegionsLayer.cpp",
+  "file": "/project/src/world/files/RegionsLayer.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/world/files/WorldConverter.cpp.obj -c /project/src/world/files/WorldConverter.cpp",
+  "file": "/project/src/world/files/WorldConverter.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/world/files/WorldFiles.cpp.obj -c /project/src/world/files/WorldFiles.cpp",
+  "file": "/project/src/world/files/WorldFiles.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/world/files/WorldRegions.cpp.obj -c /project/src/world/files/WorldRegions.cpp",
+  "file": "/project/src/world/files/WorldRegions.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/world/files/compatibility.cpp.obj -c /project/src/world/files/compatibility.cpp",
+  "file": "/project/src/world/files/compatibility.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/world/generator/GeneratorDef.cpp.obj -c /project/src/world/generator/GeneratorDef.cpp",
+  "file": "/project/src/world/generator/GeneratorDef.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/world/generator/SurroundMap.cpp.obj -c /project/src/world/generator/SurroundMap.cpp",
+  "file": "/project/src/world/generator/SurroundMap.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/world/generator/VoxelFragment.cpp.obj -c /project/src/world/generator/VoxelFragment.cpp",
+  "file": "/project/src/world/generator/VoxelFragment.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipXSrc.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipXSrc.dir/src/world/generator/WorldGenerator.cpp.obj -c /project/src/world/generator/WorldGenerator.cpp",
+  "file": "/project/src/world/generator/WorldGenerator.cpp"
+},
+{
+  "directory": "/project/build-windows",
+  "command": "x86_64-w64-mingw32-g++  @CMakeFiles/HaipX.dir/includes_CXX.rsp  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/HaipX.dir/src/main.cpp.obj -c /project/src/main.cpp",
+  "file": "/project/src/main.cpp"
+}
+]

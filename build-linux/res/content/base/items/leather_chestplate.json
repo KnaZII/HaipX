@@ -1,0 +1,9 @@
+{
+    "caption": "Leather Chestplate",
+    "icon-type": "sprite",
+    "icon": "items:leather_chestplate",
+    "uses": 80,
+    "uses-display": "vbar",
+    "stack-size": 1,
+    "placing-block": "core:air"
+} 

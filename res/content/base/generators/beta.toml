@@ -1,0 +1,11 @@
+caption = "BETA - Горный ландшафт"
+# 1 - temperature (температура)
+# 2 - humidity (влажность) 
+biome-parameters = 2
+sea-level = 32
+biome-bpd = 4
+heights-bpd = 4
+heights-interpolation = "linear"
+biomes-interpolation = "linear"
+wide-structs-chunks-radius = 3
+heightmap-inputs = [1] 

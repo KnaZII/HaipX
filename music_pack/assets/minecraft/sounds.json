@@ -1,0 +1,6 @@
+{
+    "block.amethyst_block.resonate": {
+      "replace": true,
+      "sounds": ["custom_amethyst"]
+    }
+  }

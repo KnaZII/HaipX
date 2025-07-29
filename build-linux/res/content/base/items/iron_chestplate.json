@@ -1,0 +1,9 @@
+{
+    "caption": "Iron Chestplate",
+    "icon-type": "sprite",
+    "icon": "items:iron_chestplate",
+    "uses": 240,
+    "uses-display": "vbar",
+    "stack-size": 1,
+    "placing-block": "core:air"
+} 

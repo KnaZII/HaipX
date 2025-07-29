@@ -1,0 +1,3 @@
+/usr/bin/cmake -E rm -f CMakeFiles/HaipX.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/HaipX.dir/objects.a @CMakeFiles/HaipX.dir/objects1
+x86_64-w64-mingw32-g++  -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -isystem /usr/x86_64-w64-mingw32/include -I/usr/x86_64-w64-mingw32/include -DWIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -I/usr/x86_64-w64-mingw32/include -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles/HaipX.dir/objects.a -Wl,--no-whole-archive -o HaipX.exe -Wl,--out-implib,libHaipX.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/HaipX.dir/linkLibs.rsp

@@ -1,0 +1,162 @@
+{
+  "players": [
+    {
+      "camera": "core:first-person",
+      "max-hunger": 20,
+      "max-health": 20,
+      "position": [
+        0,
+        1.9299932718277,
+        0
+      ],
+      "survival-mode": true,
+      "id": 0,
+      "spawnpoint": [
+        0,
+        0,
+        0
+      ],
+      "infinite-items": true,
+      "name": "",
+      "chosen-slot": 0,
+      "noclip": false,
+      "health": 20,
+      "flight": false,
+      "suspended": false,
+      "instant-destruction": false,
+      "inventory": {
+        "slots": [
+          {
+            "id": 0
+          },
+          {
+            "id": 0
+          },
+          {
+            "id": 0
+          },
+          {
+            "id": 0
+          },
+          {
+            "id": 0
+          },
+          {
+            "id": 0
+          },
+          {
+            "id": 0
+          },
+          {
+            "id": 0
+          },
+          {
+            "id": 0
+          },
+          {
+            "id": 0
+          },
+          {
+            "id": 0
+          },
+          {
+            "id": 0
+          },
+          {
+            "id": 0
+          },
+          {
+            "id": 0
+          },
+          {
+            "id": 0
+          },
+          {
+            "id": 0
+          },
+          {
+            "id": 0
+          },
+          {
+            "id": 0
+          },
+          {
+            "id": 0
+          },
+          {
+            "id": 0
+          },
+          {
+            "id": 0
+          },
+          {
+            "id": 0
+          },
+          {
+            "id": 0
+          },
+          {
+            "id": 0
+          },
+          {
+            "id": 0
+          },
+          {
+            "id": 0
+          },
+          {
+            "id": 0
+          },
+          {
+            "id": 0
+          },
+          {
+            "id": 0
+          },
+          {
+            "id": 0
+          },
+          {
+            "id": 0
+          },
+          {
+            "id": 0
+          },
+          {
+            "id": 0
+          },
+          {
+            "id": 0
+          },
+          {
+            "id": 0
+          },
+          {
+            "id": 0
+          },
+          {
+            "id": 0
+          },
+          {
+            "id": 0
+          },
+          {
+            "id": 0
+          },
+          {
+            "id": 0
+          }
+        ],
+        "id": 1
+      },
+      "loading-chunks": true,
+      "hunger": 19.5,
+      "rotation": [
+        -152.670806884766,
+        -9.2850923538208,
+        0
+      ],
+      "entity": 1
+    }
+  ]
+}

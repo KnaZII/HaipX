@@ -830,21 +830,27 @@ bool scripting::register_event(
     int env, const std::string& name, const std::string& id
 ) {
     auto L = lua::get_main_state();
+    
+    // Сначала пытаемся загрузить окружение
     if (lua::pushenv(L, env) == 0) {
         lua::pushglobals(L);
     }
+    
     bool success = true;
     lua::getglobal(L, "events");
     lua::getfield(L, "reset");
     lua::pushstring(L, id);
+    
+    // Ищем функцию в окружении предмета
     if (!lua::getfield(L, name, -4)) {
         success = false;
         lua::pushnil(L);
     }
+    
     lua::call_nothrow(L, 2);
     lua::pop(L);
 
-    // remove previous name
+    // Удаляем предыдущее имя
     lua::pushnil(L);
     lua::setfield(L, name);
     return success;

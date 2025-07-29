@@ -28,10 +28,8 @@ class CameraControl {
     glm::vec3 interpVel {0.0f};
     
     // Переменные для управления курсором
-    float cursorIdleTimer = 0.0f;
-    bool cursorShouldBeLocked = false;
-    static constexpr float CURSOR_IDLE_THRESHOLD = 0.5f; // секунды без движения для разблокировки
-    static constexpr float CURSOR_MOVEMENT_THRESHOLD = 0.1f; // минимальное движение для блокировки
+    static constexpr float CURSOR_IDLE_THRESHOLD = 2.0f; // секунды без движения для разблокировки
+    static constexpr float CURSOR_MOVEMENT_THRESHOLD = 1.0f; // минимальное движение для блокировки
 
     /// @brief Update shaking timer and calculate camera offset
     /// @param delta delta time

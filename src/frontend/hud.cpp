@@ -339,7 +339,11 @@ void Hud::update(bool visible) {
     if (!gui.isFocusCaught()) {
         processInput(visible);
     }
-    if ((is_menu_open || inventoryOpen) == input.getCursor().locked) {
+    // Управление курсором в HUD - показываем только когда открыто меню или инвентарь
+    bool shouldShowCursor = is_menu_open || inventoryOpen;
+    bool isCursorLocked = input.getCursor().locked;
+    
+    if (shouldShowCursor != !isCursorLocked) {
         input.toggleCursor();
     }
 

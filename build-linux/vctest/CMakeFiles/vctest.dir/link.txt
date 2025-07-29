@@ -1,0 +1,1 @@
+/usr/bin/c++ -no-pie -Wl,--dependency-file=CMakeFiles/vctest.dir/link.d CMakeFiles/vctest.dir/main.cpp.o -o vctest

@@ -1,0 +1,4 @@
+/project/build-windows/CMakeFiles/HaipXSrc.dir
+/project/build-windows/CMakeFiles/HaipX.dir
+/project/build-windows/CMakeFiles/edit_cache.dir
+/project/build-windows/CMakeFiles/rebuild_cache.dir

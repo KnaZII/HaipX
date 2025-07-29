@@ -1,0 +1,10 @@
+{
+    "caption": "Пластинка: Лада Турбоспейс - Lida",
+    "icon-type": "sprite",
+    "icon": "items:music_disc_cat",
+    "script-name": "items/music_disc_cat",
+    "uses": -1,
+    "uses-display": "none",
+    "stack-size": 1,
+    "placing-block": "core:air"
+} 

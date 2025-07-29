@@ -1,0 +1,10 @@
+{
+    "caption": "Пластинка: Ты не поймешь - Стинт mzlff",
+    "icon-type": "sprite",
+    "icon": "items:music_disc_wait",
+    "script-name": "items/music_disc_wait",
+    "uses": -1,
+    "uses-display": "none",
+    "stack-size": 1,
+    "placing-block": "core:air"
+} 

@@ -1,0 +1,137 @@
+{
+  "post-effect-slot": [
+    {
+      "name": "core:default"
+    }
+  ],
+  "camera": [
+    {
+      "saved": {
+        "zoom": 1,
+        "flipped": false,
+        "perspective": true,
+        "fov": 1.57079637050629,
+        "rot": [
+          -0.888383448123932,
+          0,
+          0.459102272987366,
+          0,
+          0.0740747973322868,
+          0.986897647380829,
+          0.143338039517403,
+          0,
+          -0.453086972236633,
+          0.161347031593323,
+          -0.876743614673615,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "pos": [
+          0,
+          2.53649711608887,
+          0
+        ]
+      },
+      "name": "core:first-person"
+    },
+    {
+      "saved": {
+        "zoom": 1,
+        "flipped": false,
+        "perspective": true,
+        "fov": 1.57079637050629,
+        "rot": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "pos": [
+          0,
+          0,
+          0
+        ]
+      },
+      "name": "core:third-person-front"
+    },
+    {
+      "saved": {
+        "zoom": 1,
+        "flipped": false,
+        "perspective": true,
+        "fov": 1.57079637050629,
+        "rot": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "pos": [
+          0,
+          0,
+          0
+        ]
+      },
+      "name": "core:third-person-back"
+    },
+    {
+      "saved": {
+        "zoom": 1,
+        "flipped": false,
+        "perspective": true,
+        "fov": 1,
+        "rot": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "pos": [
+          0,
+          0,
+          0
+        ]
+      },
+      "name": "core:cinematic"
+    }
+  ]
+}

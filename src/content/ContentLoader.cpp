@@ -425,7 +425,15 @@ static void load_script(const Content& content, T& def) {
     const auto& pack = runtime->getInfo();
     const auto& folder = pack.folder;
     auto scriptfile = folder / ("scripts/" + def.scriptName + ".lua");
+    
+    // Отладочная информация
+    std::cout << "DEBUG: Loading script for " << name << std::endl;
+    std::cout << "DEBUG: scriptName = " << def.scriptName << std::endl;
+    std::cout << "DEBUG: scriptfile = " << scriptfile.string() << std::endl;
+    std::cout << "DEBUG: file exists = " << (io::is_regular_file(scriptfile) ? "YES" : "NO") << std::endl;
+    
     if (io::is_regular_file(scriptfile)) {
+        std::cout << "DEBUG: Loading script file: " << scriptfile.string() << std::endl;
         scripting::load_content_script(
             runtime->getEnvironment(),
             name,
@@ -433,6 +441,8 @@ static void load_script(const Content& content, T& def) {
             def.scriptFile,
             def.rt.funcsset
         );
+    } else {
+        std::cout << "DEBUG: Script file not found: " << scriptfile.string() << std::endl;
     }
 }
 

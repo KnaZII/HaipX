@@ -71,7 +71,7 @@ target_link_libraries(
             ZLIB::ZLIB
             PNG::PNG
             CURL::libcurl
-            # OpenAL::OpenAL
+            OpenAL::OpenAL
             Vorbis::vorbis
             Vorbis::vorbisfile
             luajit::luajit

@@ -7,7 +7,22 @@
         "blocks/door_close",
         "events/pickup",
         "ambient/rain",
-        "ambient/thunder"
+        "ambient/thunder",
+        "records/11",
+        "records/13",
+        "records/5",
+        "records/blocks",
+        "records/cat",
+        "records/chirp",
+        "records/far",
+        "records/mellohi",
+        "records/otherside",
+        "records/pigstep",
+        "records/relic",
+        "records/stal",
+        "records/strad",
+        "records/wait",
+        "records/ward"
     ],
     "models": [
         "drop-item"
